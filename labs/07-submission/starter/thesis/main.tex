@@ -1,0 +1,21 @@
+% !TeX program = xelatex
+% Portable practice of book structure; not SJTUThesis.
+\documentclass[UTF8,fontset=fandol,openany]{ctexbook}
+\usepackage{amsmath,amsthm,graphicx}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{定理}[chapter]
+\title{温度校正排版练习}\author{实验者}\date{}
+\begin{document}
+\frontmatter
+\maketitle
+\chapter{摘要}这里是中文摘要。\chapter{Abstract}This is a typesetting exercise.
+\tableofcontents\listoffigures\listoftables
+\mainmatter
+\chapter{方法}\label{chap:method}
+\begin{theorem}若所有预测值等于真实值，则 RMSE 为零。\end{theorem}
+\begin{proof}各平方误差均为零，代入定义即可。\end{proof}
+\appendix
+\chapter{数据说明}全部观测均为教学合成数据。
+\backmatter
+\chapter{致谢}感谢教学材料作者。
+\end{document}

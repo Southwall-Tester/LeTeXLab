@@ -1,0 +1,27 @@
+{
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "LaTeXLab · XeLaTeX + bibliography",
+      "tools": [
+        "latexlab"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexlab",
+      "command": "latexmk",
+      "args": [
+        "-xelatex",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-halt-on-error",
+        "-no-shell-escape",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.view.pdf.viewer": "tab"
+}

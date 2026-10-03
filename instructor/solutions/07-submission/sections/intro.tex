@@ -1,0 +1,21 @@
+% !TeX root = ../main.tex
+\section{引言}\label{sec:intro}
+本项目比较两种室内温度校正方案。所有数据均为教学合成数据，
+只用于练习论文排版，不能据此声称算法具有实际科研效果。
+\emph{可复现的排版}要求正文、数据与引用能够一起交付。
+数据版本为 \texttt{sensor\_v2}，抽查比例为 20\%。
+\footnote{本实验不收集真实受试者数据。}
+方法见第~\ref{sec:method} 节，结果与局限见第~\ref{sec:results} 节。
+\subsection{研究问题}
+比较 Baseline 和 Calibrated 在六个时刻的误差。
+\begin{itemize}
+  \item 保留原始观测；
+  \item 图、表和正文使用同一组数据。
+\end{itemize}
+\begin{enumerate}
+  \item 读取数据；\item 计算误差；\item 复核结果。
+\end{enumerate}
+\begin{description}
+  \item[真实值] 本教学数据中给定的参照温度。
+  \item[预测值] 两种方法给出的温度。
+\end{description}

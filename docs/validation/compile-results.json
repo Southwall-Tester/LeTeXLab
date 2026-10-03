@@ -1,0 +1,2668 @@
+[
+  {
+    "lab": "00",
+    "kind": "solution",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\00-solution-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\00-solution-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\00-solution-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\00-solution-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已扫描实际读入的 .tex；编译失败时扫描字面量入口链。",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "boot-output",
+        "name": "PDF 中出现修改后的标题、接管标记和英文测试句",
+        "status": "pass",
+        "pass": true,
+        "evidence": "PDF 文本提取确认三个指定文本。",
+        "detail": "检查本次输出文字；署名及 SyncTeX 跳转请按自查卡亲自验证。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      }
+    ],
+    "selfcheck_status": "passed",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "00",
+    "kind": "starter",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\00-starter-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\00-starter-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\00-starter-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\00-starter-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已扫描实际读入的 .tex；编译失败时扫描字面量入口链。",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "boot-output",
+        "name": "PDF 中出现修改后的标题、接管标记和英文测试句",
+        "status": "fail",
+        "pass": false,
+        "evidence": "未找到：温度校正研究：工程接管、接管完成",
+        "detail": "检查本次输出文字；署名及 SyncTeX 跳转请按自查卡亲自验证。",
+        "next_action": "修改 title 和正文接管标记，保留中英文测试句；编译后打开新 PDF。"
+      }
+    ],
+    "selfcheck_status": "needs_work",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "01",
+    "kind": "solution",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\01-solution-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\01-solution-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\01-solution-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\01-solution-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已扫描实际读入的 .tex；编译失败时扫描字面量入口链。",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-inputs",
+        "name": "至少三份章节文件被本次引擎实际读入",
+        "status": "pass",
+        "pass": true,
+        "evidence": "recorder .fls 中的章节：sections/intro.tex, sections/method.tex, sections/results.tex",
+        "detail": "根据引擎实际读入记录核验，文件仅存在于目录中不算通过。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-single-root",
+        "name": "读入章节不再包含另一份文档入口",
+        "status": "pass",
+        "pass": true,
+        "evidence": "章节未包含 documentclass 或 document 环境。",
+        "detail": "仅对三份指定章节检查重复入口。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-labels",
+        "name": "至少三个主要章节已产生稳定标签编号",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"sec:intro\": \"1\", \"sec:method\": \"2\", \"sec:results\": \"3\"}",
+        "detail": "标签键可自由命名；依据实际 section 编号识别。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-output",
+        "name": "摘要与三个章节标题可在 PDF 中定位",
+        "status": "pass",
+        "pass": true,
+        "evidence": "PDF 文本含摘要/引言/方法/结果；编号证据另列于章节标签项。",
+        "detail": "只核对文字输出，不判断摘要质量。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-lists",
+        "name": "三种列表环境均出现在读入源码",
+        "status": "pass",
+        "pass": true,
+        "evidence": "检查 itemize、enumerate、description 的字面量环境；构建通过才判定。",
+        "detail": "只核对环境存在，缩进与字号请在 PDF 自查。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-special",
+        "name": "PDF 正确输出 sensor_v2、20% 和 A&B",
+        "status": "pass",
+        "pass": true,
+        "evidence": "直接核对提取的 PDF 文本。",
+        "detail": "检测条件成立。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      }
+    ],
+    "selfcheck_status": "passed",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "01",
+    "kind": "starter",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\01-starter-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\01-starter-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\01-starter-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\01-starter-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "fail",
+        "pass": false,
+        "evidence": "[('main.tex', 19)]",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "处理列出的正文占位符并重新编译。"
+      },
+      {
+        "id": "structure-inputs",
+        "name": "至少三份章节文件被本次引擎实际读入",
+        "status": "fail",
+        "pass": false,
+        "evidence": "recorder .fls 中的章节：",
+        "detail": "根据引擎实际读入记录核验，文件仅存在于目录中不算通过。",
+        "next_action": "在唯一主文件中接入三份章节，检查输入路径；子文件只保留正文。"
+      },
+      {
+        "id": "structure-single-root",
+        "name": "读入章节不再包含另一份文档入口",
+        "status": "pass",
+        "pass": true,
+        "evidence": "章节未包含 documentclass 或 document 环境。",
+        "detail": "仅对三份指定章节检查重复入口。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-labels",
+        "name": "至少三个主要章节已产生稳定标签编号",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{}",
+        "detail": "标签键可自由命名；依据实际 section 编号识别。",
+        "next_action": "为三个真实章节分别设置稳定 label，并重新编译。"
+      },
+      {
+        "id": "structure-output",
+        "name": "摘要与三个章节标题可在 PDF 中定位",
+        "status": "fail",
+        "pass": false,
+        "evidence": "PDF 文本含摘要/引言/方法/结果；编号证据另列于章节标签项。",
+        "detail": "只核对文字输出，不判断摘要质量。",
+        "next_action": "使用真实 abstract 和 section 结构，重新编译检查目录及标题。"
+      },
+      {
+        "id": "structure-lists",
+        "name": "三种列表环境均出现在读入源码",
+        "status": "fail",
+        "pass": false,
+        "evidence": "检查 itemize、enumerate、description 的字面量环境；构建通过才判定。",
+        "detail": "只核对环境存在，缩进与字号请在 PDF 自查。",
+        "next_action": "加入无序、有序、术语描述列表，保持环境成对。"
+      },
+      {
+        "id": "structure-special",
+        "name": "PDF 正确输出 sensor_v2、20% 和 A&B",
+        "status": "fail",
+        "pass": false,
+        "evidence": "直接核对提取的 PDF 文本。",
+        "detail": "检测条件尚未满足。",
+        "next_action": "转义正文特殊字符并核对最终 PDF。"
+      }
+    ],
+    "selfcheck_status": "needs_work",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "02",
+    "kind": "solution",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\02-solution-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\02-solution-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\02-solution-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\02-solution-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已扫描实际读入的 .tex；编译失败时扫描字面量入口链。",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "rescue-preserved",
+        "name": "修复后 PDF 保留题目指定段落、列表和表格数据",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已在 PDF 找到列出的原始内容锚点。",
+        "detail": "锚点核对不证明全文逐字一致；仍需阅读原稿与修复后的 PDF。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "rescue-reference",
+        "name": "修复后的编号表格被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"tab:results\": {\"number\": \"1\", \"role\": \"table\", \"anchor\": \"table.caption.1\", \"title\": \"两方法的误差\"}}, \"referenced_keys\": [\"tab:results\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      }
+    ],
+    "selfcheck_status": "passed",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "02",
+    "kind": "starter",
+    "entry": "main.tex",
+    "compiled": false,
+    "exit_code": 1,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [
+      "Package hyperref Warning: Rerun to get /PageLabels entry."
+    ],
+    "errors": [
+      "./main.tex:12: Undefined control sequence.\r"
+    ],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\02-starter-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\02-starter-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\02-starter-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\02-starter-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "fail",
+        "pass": false,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n./main.tex:12: Undefined control sequence.\r",
+        "detail": "./main.tex:12: Undefined control sequence.\r",
+        "next_action": "先处理日志中首个有效错误，再重新 check；缺少命令时运行 python tools/lab.py doctor。",
+        "file": "./main.tex",
+        "line": 12
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "unavailable",
+        "pass": false,
+        "evidence": "Package hyperref Warning: Rerun to get /PageLabels entry.",
+        "detail": "本次构建未完成；依赖最终产物的检查尚未执行。",
+        "next_action": "按警告给出的标签或行号定位；调整引用、编译链或尺寸后重新构建。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已扫描实际读入的 .tex；编译失败时扫描字面量入口链。",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "rescue-preserved",
+        "name": "修复后 PDF 保留题目指定段落、列表和表格数据",
+        "status": "unavailable",
+        "pass": false,
+        "evidence": "未在 PDF 文本找到：故障合并稿、A&B、第一项、保留数据、第二项、核对单位、Baseline、Calibrated、1.000、0.500",
+        "detail": "本次构建未完成；依赖最终产物的检查尚未执行。",
+        "next_action": "不要删除问题段落；恢复缺失内容并最小修复语法。"
+      },
+      {
+        "id": "rescue-reference",
+        "name": "修复后的编号表格被正文动态引用",
+        "status": "unavailable",
+        "pass": false,
+        "evidence": "{\"numbered_objects\": {}, \"referenced_keys\": []}",
+        "detail": "本次构建未完成；依赖最终产物的检查尚未执行。",
+        "next_action": "给相应编号对象设置 label，并在正文用动态引用；若使用自定义宏，查看 PDF 和日志复核该宏展开后的对象。"
+      }
+    ],
+    "selfcheck_status": "needs_work",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "03",
+    "kind": "solution",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\03-solution-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\03-solution-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\03-solution-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\03-solution-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已扫描实际读入的 .tex；编译失败时扫描字面量入口链。",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-assets",
+        "name": "本次编译确实读入两幅配套图像资源",
+        "status": "pass",
+        "pass": true,
+        "evidence": "baseline.pdf: figures/baseline.pdf\ncalibrated.pdf: figures/calibrated.pdf",
+        "detail": "使用 .fls 与素材 SHA-256 核对读入资源；不能据此判断图像是否被遮挡、裁剪或比例合适。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-references",
+        "name": "总图产生编号并被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"fig:comparison\": {\"number\": \"1\", \"role\": \"figure\", \"anchor\": \"figure.caption.1\", \"title\": \"两种方法的误差对比（教学合成数据）。\"}}, \"referenced_keys\": [\"fig:comparison\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-subreferences",
+        "name": "两个子图产生编号并被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"fig:baseline\": {\"number\": \"1a\", \"role\": \"subfigure\", \"anchor\": \"figure.caption.1\", \"title\": \"Baseline\"}, \"fig:calibrated\": {\"number\": \"1b\", \"role\": \"subfigure\", \"anchor\": \"figure.caption.1\", \"title\": \"Calibrated\"}}, \"referenced_keys\": [\"fig:baseline\", \"fig:calibrated\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-subnumbers",
+        "name": "存在同一总图下的两个不同子编号",
+        "status": "pass",
+        "pass": true,
+        "evidence": "实际 .aux 子图编号：1a, 1b",
+        "detail": "依据实际编号，不强制 subfigure 的单一实现语法或标签键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      }
+    ],
+    "selfcheck_status": "passed",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "03",
+    "kind": "starter",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\03-starter-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\03-starter-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\03-starter-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\03-starter-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "fail",
+        "pass": false,
+        "evidence": "[('main.tex', 18)]",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "处理列出的正文占位符并重新编译。"
+      },
+      {
+        "id": "figure-assets",
+        "name": "本次编译确实读入两幅配套图像资源",
+        "status": "fail",
+        "pass": false,
+        "evidence": "baseline.pdf: 未发现读入的配套原始素材\ncalibrated.pdf: 未发现读入的配套原始素材",
+        "detail": "使用 .fls 与素材 SHA-256 核对读入资源；不能据此判断图像是否被遮挡、裁剪或比例合适。",
+        "next_action": "用相对路径插入 figures 中的两幅原始 PDF 素材，避免占位框；若有意更换素材，请自行核对并说明。"
+      },
+      {
+        "id": "figure-references",
+        "name": "总图产生编号并被正文动态引用",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{\"numbered_objects\": {}, \"referenced_keys\": []}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "给相应编号对象设置 label，并在正文用动态引用；若使用自定义宏，查看 PDF 和日志复核该宏展开后的对象。"
+      },
+      {
+        "id": "figure-subreferences",
+        "name": "两个子图产生编号并被正文动态引用",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{\"numbered_objects\": {}, \"referenced_keys\": []}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "给相应编号对象设置 label，并在正文用动态引用；若使用自定义宏，查看 PDF 和日志复核该宏展开后的对象。"
+      },
+      {
+        "id": "figure-subnumbers",
+        "name": "存在同一总图下的两个不同子编号",
+        "status": "fail",
+        "pass": false,
+        "evidence": "实际 .aux 子图编号：",
+        "detail": "依据实际编号，不强制 subfigure 的单一实现语法或标签键。",
+        "next_action": "使用一个总图下的两个子图，检查 caption/label 顺序及子图编号。"
+      }
+    ],
+    "selfcheck_status": "needs_work",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "04",
+    "kind": "solution",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\04-solution-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\04-solution-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\04-solution-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\04-solution-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已扫描实际读入的 .tex；编译失败时扫描字面量入口链。",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "math-reference",
+        "name": "编号公式被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"eq:rmse\": {\"number\": \"1\", \"role\": \"equation\", \"anchor\": \"equation.1\", \"title\": \"方法\"}, \"eq:error\": {\"number\": \"2\", \"role\": \"equation\", \"anchor\": \"equation.2\", \"title\": \"方法\"}, \"eq:mse\": {\"number\": \"3\", \"role\": \"equation\", \"anchor\": \"equation.3\", \"title\": \"方法\"}}, \"referenced_keys\": [\"eq:rmse\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "table-reference",
+        "name": "编号表格被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"tab:metrics\": {\"number\": \"1\", \"role\": \"table\", \"anchor\": \"table.caption.1\", \"title\": \"温度误差汇总（教学合成数据）。\"}}, \"referenced_keys\": [\"tab:metrics\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "data-metrics",
+        "name": "从原始 CSV 独立计算 RMSE 与 MAE",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"n\": 6, \"metrics\": {\"Baseline\": {\"RMSE\": 1.0, \"MAE\": 1.0}, \"Calibrated\": {\"RMSE\": 0.5, \"MAE\": 0.5}}}",
+        "detail": "Python 按数值定义重算；不读取 TeX 公式来计算，也不证明 TeX 公式语义正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "data/observations.csv"
+      },
+      {
+        "id": "table-values",
+        "name": "PDF 中两方法的三位小数结果与 CSV 重算一致",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[{\"method\": \"Baseline\", \"expected\": [\"1.000\", \"1.000\"], \"observed_pdf_rows\": [[\"1.000\", \"1.000\"]], \"match\": true}, {\"method\": \"Calibrated\", \"expected\": [\"0.500\", \"0.500\"], \"observed_pdf_rows\": [[\"0.500\", \"0.500\"]], \"match\": true}]",
+        "detail": "支持 PDF 文本中“方法名 RMSE MAE”的连续行；复杂拆行、转置或宏排版可能无法提取，需按列自行复核。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "summary-values",
+        "name": "导入用 summary.csv 与原始观测的计算结果一致",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[{\"method\": \"Baseline\", \"RMSE_C\": \"1.000\", \"MAE_C\": \"1.000\"}, {\"method\": \"Calibrated\", \"RMSE_C\": \"0.500\", \"MAE_C\": \"0.500\"}]",
+        "detail": "检查两个指标列与方法名称，按三位小数的舍入误差比较。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "data/summary.csv"
+      },
+      {
+        "id": "table-booktabs",
+        "name": "三线表命令出现在参与构建的源码",
+        "status": "pass",
+        "pass": true,
+        "evidence": "静态检查 booktabs 的三个命令，并要求真实构建成功。",
+        "detail": "此项只检查命令存在；不判断线条位置、表头含义或视觉质量。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "synthetic-output",
+        "name": "PDF 出现教学合成数据说明",
+        "status": "pass",
+        "pass": true,
+        "evidence": "本次 PDF 提取文本中的“合成”标识。",
+        "detail": "存在说明不代表全文科研表述都恰当，仍需检查结论。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      }
+    ],
+    "selfcheck_status": "passed",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "04",
+    "kind": "starter",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\04-starter-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\04-starter-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\04-starter-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\04-starter-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "fail",
+        "pass": false,
+        "evidence": "[('main.tex', 23)]",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "处理列出的正文占位符并重新编译。"
+      },
+      {
+        "id": "math-reference",
+        "name": "编号公式被正文动态引用",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{\"numbered_objects\": {}, \"referenced_keys\": []}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "给相应编号对象设置 label，并在正文用动态引用；若使用自定义宏，查看 PDF 和日志复核该宏展开后的对象。"
+      },
+      {
+        "id": "table-reference",
+        "name": "编号表格被正文动态引用",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{\"numbered_objects\": {}, \"referenced_keys\": []}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "给相应编号对象设置 label，并在正文用动态引用；若使用自定义宏，查看 PDF 和日志复核该宏展开后的对象。"
+      },
+      {
+        "id": "data-metrics",
+        "name": "从原始 CSV 独立计算 RMSE 与 MAE",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"n\": 6, \"metrics\": {\"Baseline\": {\"RMSE\": 1.0, \"MAE\": 1.0}, \"Calibrated\": {\"RMSE\": 0.5, \"MAE\": 0.5}}}",
+        "detail": "Python 按数值定义重算；不读取 TeX 公式来计算，也不证明 TeX 公式语义正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "data/observations.csv"
+      },
+      {
+        "id": "table-values",
+        "name": "PDF 中两方法的三位小数结果与 CSV 重算一致",
+        "status": "fail",
+        "pass": false,
+        "evidence": "[{\"method\": \"Baseline\", \"expected\": [\"1.000\", \"1.000\"], \"observed_pdf_rows\": [[\"1.000\", \"1.000\"]], \"match\": true}, {\"method\": \"Calibrated\", \"expected\": [\"0.500\", \"0.500\"], \"observed_pdf_rows\": [[\"0.050\", \"0.500\"]], \"match\": false}]",
+        "detail": "支持 PDF 文本中“方法名 RMSE MAE”的连续行；复杂拆行、转置或宏排版可能无法提取，需按列自行复核。",
+        "next_action": "用 data-metrics 的计算结果更新表格，确认 RMSE/MAE 列顺序并重新编译；无法提取时查看 PDF 提交给智能体复核。"
+      },
+      {
+        "id": "summary-values",
+        "name": "导入用 summary.csv 与原始观测的计算结果一致",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[{\"method\": \"Baseline\", \"RMSE_C\": \"1.000\", \"MAE_C\": \"1.000\"}, {\"method\": \"Calibrated\", \"RMSE_C\": \"0.500\", \"MAE_C\": \"0.500\"}]",
+        "detail": "检查两个指标列与方法名称，按三位小数的舍入误差比较。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "data/summary.csv"
+      },
+      {
+        "id": "table-booktabs",
+        "name": "三线表命令出现在参与构建的源码",
+        "status": "fail",
+        "pass": false,
+        "evidence": "静态检查 booktabs 的三个命令，并要求真实构建成功。",
+        "detail": "此项只检查命令存在；不判断线条位置、表头含义或视觉质量。",
+        "next_action": "在表格内使用 top/mid/bottomrule；用 PDF 检查表头与单位。"
+      },
+      {
+        "id": "synthetic-output",
+        "name": "PDF 出现教学合成数据说明",
+        "status": "fail",
+        "pass": false,
+        "evidence": "本次 PDF 提取文本中的“合成”标识。",
+        "detail": "存在说明不代表全文科研表述都恰当，仍需检查结论。",
+        "next_action": "在正文、图题或表题说明教学合成数据，避免真实效果断言。"
+      }
+    ],
+    "selfcheck_status": "needs_work",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "05",
+    "kind": "solution",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "biber",
+        "main"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\05-solution-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\05-solution-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\05-solution-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\05-solution-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nbiber main\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已扫描实际读入的 .tex；编译失败时扫描字面量入口链。",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "bib-entries",
+        "name": "references.bib 含三个唯一的指定主键",
+        "status": "pass",
+        "pass": true,
+        "evidence": "einstein1905, knuth1984, lamport1994",
+        "detail": "仅检查主键存在和唯一；来源真实性及字段正确性需另行核对。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "references.bib"
+      },
+      {
+        "id": "bib-order",
+        "name": "实际引用及 Biber 输出的前三项为 Lamport、Knuth、Einstein",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"aux_first_citations\": [\"lamport1994\", \"knuth1984\", \"einstein1905\"], \"bbl_entry_order\": [\"lamport1994\", \"knuth1984\", \"einstein1905\"]}",
+        "detail": "从真实 .aux 和 .bbl 读取顺序；不根据 .bib 的文件排列推断编号。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "bib-output",
+        "name": "PDF 文献表中三个数字编号对应指定作者",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[1]   Leslie Lamport\n[2]   Donald E. Knuth\n[3]   Albert Einstein",
+        "detail": "核对提取文本中的 [1]/[2]/[3] 与作者同一行；特殊换行无法可靠判读时需复核 PDF。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      }
+    ],
+    "selfcheck_status": "passed",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "05",
+    "kind": "starter",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "biber",
+        "main"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [
+      "LaTeX Warning: Citation 'lamport1994' on page 1 undefined on input line 15.",
+      "Package biblatex Warning: The following entry could not be found"
+    ],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\05-starter-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\05-starter-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\05-starter-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\05-starter-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nbiber main\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "fail",
+        "pass": false,
+        "evidence": "LaTeX Warning: Citation 'lamport1994' on page 1 undefined on input line 15.",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "按警告给出的标签或行号定位；调整引用、编译链或尺寸后重新构建。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已扫描实际读入的 .tex；编译失败时扫描字面量入口链。",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "bib-entries",
+        "name": "references.bib 含三个唯一的指定主键",
+        "status": "fail",
+        "pass": false,
+        "evidence": "einstein1905, knuth1984",
+        "detail": "仅检查主键存在和唯一；来源真实性及字段正确性需另行核对。",
+        "next_action": "将 incoming.bib 中条目合入 references.bib，保留另外两条并消除重复主键。",
+        "file": "references.bib"
+      },
+      {
+        "id": "bib-order",
+        "name": "实际引用及 Biber 输出的前三项为 Lamport、Knuth、Einstein",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{\"aux_first_citations\": [\"lamport1994\", \"knuth1984\", \"einstein1905\"], \"bbl_entry_order\": [\"einstein1905\", \"knuth1984\"]}",
+        "detail": "从真实 .aux 和 .bbl 读取顺序；不根据 .bib 的文件排列推断编号。",
+        "next_action": "调整正文首次 cite 顺序，设置 sorting=none，并让 Biber 与 XeLaTeX 完整重跑。"
+      },
+      {
+        "id": "bib-output",
+        "name": "PDF 文献表中三个数字编号对应指定作者",
+        "status": "fail",
+        "pass": false,
+        "evidence": "\n\n",
+        "detail": "核对提取文本中的 [1]/[2]/[3] 与作者同一行；特殊换行无法可靠判读时需复核 PDF。",
+        "next_action": "主文档启用 numeric 样式、输出文献表；核对编译链和实际 PDF。"
+      }
+    ],
+    "selfcheck_status": "needs_work",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "06",
+    "kind": "solution",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "biber",
+        "main"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\06-solution-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\06-solution-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\06-solution-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\06-solution-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nbiber main\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已扫描实际读入的 .tex；编译失败时扫描字面量入口链。",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-inputs",
+        "name": "至少三份章节文件被本次引擎实际读入",
+        "status": "pass",
+        "pass": true,
+        "evidence": "recorder .fls 中的章节：sections/intro.tex, sections/method.tex, sections/results.tex",
+        "detail": "根据引擎实际读入记录核验，文件仅存在于目录中不算通过。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-single-root",
+        "name": "读入章节不再包含另一份文档入口",
+        "status": "pass",
+        "pass": true,
+        "evidence": "章节未包含 documentclass 或 document 环境。",
+        "detail": "仅对三份指定章节检查重复入口。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-labels",
+        "name": "至少三个主要章节已产生稳定标签编号",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"sec:intro\": \"1\", \"sec:method\": \"2\", \"sec:results\": \"3\"}",
+        "detail": "标签键可自由命名；依据实际 section 编号识别。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-output",
+        "name": "摘要与三个章节标题可在 PDF 中定位",
+        "status": "pass",
+        "pass": true,
+        "evidence": "PDF 文本含摘要/引言/方法/结果；编号证据另列于章节标签项。",
+        "detail": "只核对文字输出，不判断摘要质量。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-assets",
+        "name": "本次编译确实读入两幅配套图像资源",
+        "status": "pass",
+        "pass": true,
+        "evidence": "baseline.pdf: figures/baseline.pdf\ncalibrated.pdf: figures/calibrated.pdf",
+        "detail": "使用 .fls 与素材 SHA-256 核对读入资源；不能据此判断图像是否被遮挡、裁剪或比例合适。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-references",
+        "name": "总图产生编号并被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"fig:comparison\": {\"number\": \"1\", \"role\": \"figure\", \"anchor\": \"figure.caption.2\", \"title\": \"两种方法的误差对比（教学合成数据）。\"}}, \"referenced_keys\": [\"fig:comparison\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-subreferences",
+        "name": "两个子图产生编号并被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"fig:baseline\": {\"number\": \"1a\", \"role\": \"subfigure\", \"anchor\": \"figure.caption.2\", \"title\": \"Baseline\"}, \"fig:calibrated\": {\"number\": \"1b\", \"role\": \"subfigure\", \"anchor\": \"figure.caption.2\", \"title\": \"Calibrated\"}}, \"referenced_keys\": [\"fig:baseline\", \"fig:calibrated\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-subnumbers",
+        "name": "存在同一总图下的两个不同子编号",
+        "status": "pass",
+        "pass": true,
+        "evidence": "实际 .aux 子图编号：1a, 1b",
+        "detail": "依据实际编号，不强制 subfigure 的单一实现语法或标签键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "math-reference",
+        "name": "编号公式被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"eq:rmse\": {\"number\": \"1\", \"role\": \"equation\", \"anchor\": \"equation.1\", \"title\": \"方法\"}, \"eq:error\": {\"number\": \"2\", \"role\": \"equation\", \"anchor\": \"equation.2\", \"title\": \"方法\"}, \"eq:mse\": {\"number\": \"3\", \"role\": \"equation\", \"anchor\": \"equation.3\", \"title\": \"方法\"}}, \"referenced_keys\": [\"eq:rmse\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "table-reference",
+        "name": "编号表格被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"tab:metrics\": {\"number\": \"1\", \"role\": \"table\", \"anchor\": \"table.caption.3\", \"title\": \"温度误差汇总（教学合成数据）。\"}}, \"referenced_keys\": [\"tab:metrics\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "data-metrics",
+        "name": "从原始 CSV 独立计算 RMSE 与 MAE",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"n\": 6, \"metrics\": {\"Baseline\": {\"RMSE\": 1.0, \"MAE\": 1.0}, \"Calibrated\": {\"RMSE\": 0.5, \"MAE\": 0.5}}}",
+        "detail": "Python 按数值定义重算；不读取 TeX 公式来计算，也不证明 TeX 公式语义正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "data/observations.csv"
+      },
+      {
+        "id": "table-values",
+        "name": "PDF 中两方法的三位小数结果与 CSV 重算一致",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[{\"method\": \"Baseline\", \"expected\": [\"1.000\", \"1.000\"], \"observed_pdf_rows\": [[\"1.000\", \"1.000\"]], \"match\": true}, {\"method\": \"Calibrated\", \"expected\": [\"0.500\", \"0.500\"], \"observed_pdf_rows\": [[\"0.500\", \"0.500\"]], \"match\": true}]",
+        "detail": "支持 PDF 文本中“方法名 RMSE MAE”的连续行；复杂拆行、转置或宏排版可能无法提取，需按列自行复核。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "summary-values",
+        "name": "导入用 summary.csv 与原始观测的计算结果一致",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[{\"method\": \"Baseline\", \"RMSE_C\": \"1.000\", \"MAE_C\": \"1.000\"}, {\"method\": \"Calibrated\", \"RMSE_C\": \"0.500\", \"MAE_C\": \"0.500\"}]",
+        "detail": "检查两个指标列与方法名称，按三位小数的舍入误差比较。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "data/summary.csv"
+      },
+      {
+        "id": "table-booktabs",
+        "name": "三线表命令出现在参与构建的源码",
+        "status": "pass",
+        "pass": true,
+        "evidence": "静态检查 booktabs 的三个命令，并要求真实构建成功。",
+        "detail": "此项只检查命令存在；不判断线条位置、表头含义或视觉质量。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "synthetic-output",
+        "name": "PDF 出现教学合成数据说明",
+        "status": "pass",
+        "pass": true,
+        "evidence": "本次 PDF 提取文本中的“合成”标识。",
+        "detail": "存在说明不代表全文科研表述都恰当，仍需检查结论。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "bib-entries",
+        "name": "references.bib 含三个唯一的指定主键",
+        "status": "pass",
+        "pass": true,
+        "evidence": "einstein1905, knuth1984, lamport1994",
+        "detail": "仅检查主键存在和唯一；来源真实性及字段正确性需另行核对。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "references.bib"
+      },
+      {
+        "id": "bib-order",
+        "name": "实际引用及 Biber 输出的前三项为 Lamport、Knuth、Einstein",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"aux_first_citations\": [\"lamport1994\", \"knuth1984\", \"einstein1905\"], \"bbl_entry_order\": [\"lamport1994\", \"knuth1984\", \"einstein1905\"]}",
+        "detail": "从真实 .aux 和 .bbl 读取顺序；不根据 .bib 的文件排列推断编号。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "bib-output",
+        "name": "PDF 文献表中三个数字编号对应指定作者",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[1] Leslie Lamport\n[2] Donald E. Knuth\n[3] Albert Einstein",
+        "detail": "核对提取文本中的 [1]/[2]/[3] 与作者同一行；特殊换行无法可靠判读时需复核 PDF。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "template-class",
+        "name": "配套 labpaper.cls 保持原样",
+        "status": "pass",
+        "pass": true,
+        "evidence": "00b67905ccf0e59f3988a24eb348783e2d5dc516926a6838df79369af18fde92",
+        "detail": "检测条件成立。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "labpaper.cls"
+      },
+      {
+        "id": "template-layout",
+        "name": "review 模板及日志中的双栏、20 mm 左右边距",
+        "status": "pass",
+        "pass": true,
+        "evidence": "review=True; twocolumn=True; h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt); 正文重设命令=[]",
+        "detail": "检查模板入口与 geometry 初始日志；页内局部排版和上下边距须在 PDF 自查。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "template-a4",
+        "name": "实际 PDF 页面尺寸为 A4",
+        "status": "pass",
+        "pass": true,
+        "evidence": "Page size:       595.28 x 841.89 pts",
+        "detail": "检测条件成立。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "template-anonymous",
+        "name": "实际 PDF 出现匿名作者，Author 元数据为空或匿名",
+        "status": "pass",
+        "pass": true,
+        "evidence": "PDF 中匿名作者=True; 没有 Author 元数据字段",
+        "detail": "只核对作者显示与 Author 字段，不检查致谢、项目名、图像或其他元数据中的身份。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      }
+    ],
+    "selfcheck_status": "passed",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "06",
+    "kind": "starter",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "biber",
+        "main"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\06-starter-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\06-starter-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\06-starter-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\06-starter-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nbiber main\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已扫描实际读入的 .tex；编译失败时扫描字面量入口链。",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-inputs",
+        "name": "至少三份章节文件被本次引擎实际读入",
+        "status": "pass",
+        "pass": true,
+        "evidence": "recorder .fls 中的章节：sections/intro.tex, sections/method.tex, sections/results.tex",
+        "detail": "根据引擎实际读入记录核验，文件仅存在于目录中不算通过。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-single-root",
+        "name": "读入章节不再包含另一份文档入口",
+        "status": "pass",
+        "pass": true,
+        "evidence": "章节未包含 documentclass 或 document 环境。",
+        "detail": "仅对三份指定章节检查重复入口。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-labels",
+        "name": "至少三个主要章节已产生稳定标签编号",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"sec:intro\": \"1\", \"sec:method\": \"2\", \"sec:results\": \"3\"}",
+        "detail": "标签键可自由命名；依据实际 section 编号识别。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-output",
+        "name": "摘要与三个章节标题可在 PDF 中定位",
+        "status": "pass",
+        "pass": true,
+        "evidence": "PDF 文本含摘要/引言/方法/结果；编号证据另列于章节标签项。",
+        "detail": "只核对文字输出，不判断摘要质量。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-assets",
+        "name": "本次编译确实读入两幅配套图像资源",
+        "status": "pass",
+        "pass": true,
+        "evidence": "baseline.pdf: figures/baseline.pdf\ncalibrated.pdf: figures/calibrated.pdf",
+        "detail": "使用 .fls 与素材 SHA-256 核对读入资源；不能据此判断图像是否被遮挡、裁剪或比例合适。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-references",
+        "name": "总图产生编号并被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"fig:comparison\": {\"number\": \"1\", \"role\": \"figure\", \"anchor\": \"figure.caption.1\", \"title\": \"两种方法的误差对比（教学合成数据）。\"}}, \"referenced_keys\": [\"fig:comparison\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-subreferences",
+        "name": "两个子图产生编号并被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"fig:baseline\": {\"number\": \"1a\", \"role\": \"subfigure\", \"anchor\": \"figure.caption.1\", \"title\": \"Baseline\"}, \"fig:calibrated\": {\"number\": \"1b\", \"role\": \"subfigure\", \"anchor\": \"figure.caption.1\", \"title\": \"Calibrated\"}}, \"referenced_keys\": [\"fig:baseline\", \"fig:calibrated\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-subnumbers",
+        "name": "存在同一总图下的两个不同子编号",
+        "status": "pass",
+        "pass": true,
+        "evidence": "实际 .aux 子图编号：1a, 1b",
+        "detail": "依据实际编号，不强制 subfigure 的单一实现语法或标签键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "math-reference",
+        "name": "编号公式被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"eq:rmse\": {\"number\": \"1\", \"role\": \"equation\", \"anchor\": \"equation.1\", \"title\": \"方法\"}, \"eq:error\": {\"number\": \"2\", \"role\": \"equation\", \"anchor\": \"equation.2\", \"title\": \"方法\"}, \"eq:mse\": {\"number\": \"3\", \"role\": \"equation\", \"anchor\": \"equation.3\", \"title\": \"方法\"}}, \"referenced_keys\": [\"eq:rmse\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "table-reference",
+        "name": "编号表格被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"tab:metrics\": {\"number\": \"1\", \"role\": \"table\", \"anchor\": \"table.caption.2\", \"title\": \"温度误差汇总（教学合成数据）。\"}}, \"referenced_keys\": [\"tab:metrics\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "data-metrics",
+        "name": "从原始 CSV 独立计算 RMSE 与 MAE",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"n\": 6, \"metrics\": {\"Baseline\": {\"RMSE\": 1.0, \"MAE\": 1.0}, \"Calibrated\": {\"RMSE\": 0.5, \"MAE\": 0.5}}}",
+        "detail": "Python 按数值定义重算；不读取 TeX 公式来计算，也不证明 TeX 公式语义正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "data/observations.csv"
+      },
+      {
+        "id": "table-values",
+        "name": "PDF 中两方法的三位小数结果与 CSV 重算一致",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[{\"method\": \"Baseline\", \"expected\": [\"1.000\", \"1.000\"], \"observed_pdf_rows\": [[\"1.000\", \"1.000\"]], \"match\": true}, {\"method\": \"Calibrated\", \"expected\": [\"0.500\", \"0.500\"], \"observed_pdf_rows\": [[\"0.500\", \"0.500\"]], \"match\": true}]",
+        "detail": "支持 PDF 文本中“方法名 RMSE MAE”的连续行；复杂拆行、转置或宏排版可能无法提取，需按列自行复核。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "summary-values",
+        "name": "导入用 summary.csv 与原始观测的计算结果一致",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[{\"method\": \"Baseline\", \"RMSE_C\": \"1.000\", \"MAE_C\": \"1.000\"}, {\"method\": \"Calibrated\", \"RMSE_C\": \"0.500\", \"MAE_C\": \"0.500\"}]",
+        "detail": "检查两个指标列与方法名称，按三位小数的舍入误差比较。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "data/summary.csv"
+      },
+      {
+        "id": "table-booktabs",
+        "name": "三线表命令出现在参与构建的源码",
+        "status": "pass",
+        "pass": true,
+        "evidence": "静态检查 booktabs 的三个命令，并要求真实构建成功。",
+        "detail": "此项只检查命令存在；不判断线条位置、表头含义或视觉质量。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "synthetic-output",
+        "name": "PDF 出现教学合成数据说明",
+        "status": "pass",
+        "pass": true,
+        "evidence": "本次 PDF 提取文本中的“合成”标识。",
+        "detail": "存在说明不代表全文科研表述都恰当，仍需检查结论。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "bib-entries",
+        "name": "references.bib 含三个唯一的指定主键",
+        "status": "pass",
+        "pass": true,
+        "evidence": "einstein1905, knuth1984, lamport1994",
+        "detail": "仅检查主键存在和唯一；来源真实性及字段正确性需另行核对。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "references.bib"
+      },
+      {
+        "id": "bib-order",
+        "name": "实际引用及 Biber 输出的前三项为 Lamport、Knuth、Einstein",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"aux_first_citations\": [\"lamport1994\", \"knuth1984\", \"einstein1905\"], \"bbl_entry_order\": [\"lamport1994\", \"knuth1984\", \"einstein1905\"]}",
+        "detail": "从真实 .aux 和 .bbl 读取顺序；不根据 .bib 的文件排列推断编号。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "bib-output",
+        "name": "PDF 文献表中三个数字编号对应指定作者",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[1]   Leslie Lamport\n[2]   Donald E. Knuth\n[3]   Albert Einstein",
+        "detail": "核对提取文本中的 [1]/[2]/[3] 与作者同一行；特殊换行无法可靠判读时需复核 PDF。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "template-class",
+        "name": "配套 labpaper.cls 保持原样",
+        "status": "pass",
+        "pass": true,
+        "evidence": "00b67905ccf0e59f3988a24eb348783e2d5dc516926a6838df79369af18fde92",
+        "detail": "检测条件成立。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "labpaper.cls"
+      },
+      {
+        "id": "template-layout",
+        "name": "review 模板及日志中的双栏、20 mm 左右边距",
+        "status": "fail",
+        "pass": false,
+        "evidence": "review=False; twocolumn=False; h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt); 正文重设命令=[]",
+        "detail": "检查模板入口与 geometry 初始日志；页内局部排版和上下边距须在 PDF 自查。",
+        "next_action": "通过模板选项启用 review，检查实际 geometry 输出；不要覆盖模板的纸张和边距。"
+      },
+      {
+        "id": "template-a4",
+        "name": "实际 PDF 页面尺寸为 A4",
+        "status": "pass",
+        "pass": true,
+        "evidence": "Page size:       595.28 x 841.89 pts",
+        "detail": "检测条件成立。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "template-anonymous",
+        "name": "实际 PDF 出现匿名作者，Author 元数据为空或匿名",
+        "status": "fail",
+        "pass": false,
+        "evidence": "PDF 中匿名作者=False; 没有 Author 元数据字段",
+        "detail": "只核对作者显示与 Author 字段，不检查致谢、项目名、图像或其他元数据中的身份。",
+        "next_action": "开启 review，清理 hypersetup 的 pdfauthor 并打开 PDF 自查残留身份。"
+      }
+    ],
+    "selfcheck_status": "needs_work",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "07",
+    "kind": "solution",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "biber",
+        "main"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\07-solution-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\07-solution-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\07-solution-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\07-solution-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nbiber main\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "pass",
+        "pass": true,
+        "evidence": "已扫描实际读入的 .tex；编译失败时扫描字面量入口链。",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-inputs",
+        "name": "至少三份章节文件被本次引擎实际读入",
+        "status": "pass",
+        "pass": true,
+        "evidence": "recorder .fls 中的章节：sections/intro.tex, sections/method.tex, sections/results.tex",
+        "detail": "根据引擎实际读入记录核验，文件仅存在于目录中不算通过。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-single-root",
+        "name": "读入章节不再包含另一份文档入口",
+        "status": "pass",
+        "pass": true,
+        "evidence": "章节未包含 documentclass 或 document 环境。",
+        "detail": "仅对三份指定章节检查重复入口。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-labels",
+        "name": "至少三个主要章节已产生稳定标签编号",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"sec:intro\": \"1\", \"sec:method\": \"2\", \"sec:results\": \"3\"}",
+        "detail": "标签键可自由命名；依据实际 section 编号识别。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-references",
+        "name": "正文动态引用了已编号的章节",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"sec:intro\": {\"number\": \"1\", \"role\": \"section\", \"anchor\": \"section.1\", \"title\": \"引言\"}, \"sec:method\": {\"number\": \"2\", \"role\": \"section\", \"anchor\": \"section.2\", \"title\": \"方法\"}, \"sec:results\": {\"number\": \"3\", \"role\": \"section\", \"anchor\": \"section.3\", \"title\": \"结果与局限\"}}, \"referenced_keys\": [\"sec:method\", \"sec:results\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-output",
+        "name": "摘要与三个章节标题可在 PDF 中定位",
+        "status": "pass",
+        "pass": true,
+        "evidence": "PDF 文本含摘要/引言/方法/结果；编号证据另列于章节标签项。",
+        "detail": "只核对文字输出，不判断摘要质量。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-assets",
+        "name": "本次编译确实读入两幅配套图像资源",
+        "status": "pass",
+        "pass": true,
+        "evidence": "baseline.pdf: figures/baseline.pdf\ncalibrated.pdf: figures/calibrated.pdf",
+        "detail": "使用 .fls 与素材 SHA-256 核对读入资源；不能据此判断图像是否被遮挡、裁剪或比例合适。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-references",
+        "name": "总图产生编号并被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"fig:comparison\": {\"number\": \"1\", \"role\": \"figure\", \"anchor\": \"figure.caption.2\", \"title\": \"两种方法的误差对比（教学合成数据）。\"}}, \"referenced_keys\": [\"fig:comparison\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-subreferences",
+        "name": "两个子图产生编号并被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"fig:baseline\": {\"number\": \"1a\", \"role\": \"subfigure\", \"anchor\": \"figure.caption.2\", \"title\": \"Baseline\"}, \"fig:calibrated\": {\"number\": \"1b\", \"role\": \"subfigure\", \"anchor\": \"figure.caption.2\", \"title\": \"Calibrated\"}}, \"referenced_keys\": [\"fig:baseline\", \"fig:calibrated\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "figure-subnumbers",
+        "name": "存在同一总图下的两个不同子编号",
+        "status": "pass",
+        "pass": true,
+        "evidence": "实际 .aux 子图编号：1a, 1b",
+        "detail": "依据实际编号，不强制 subfigure 的单一实现语法或标签键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "math-reference",
+        "name": "编号公式被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"eq:rmse\": {\"number\": \"1\", \"role\": \"equation\", \"anchor\": \"equation.1\", \"title\": \"方法\"}, \"eq:error\": {\"number\": \"2\", \"role\": \"equation\", \"anchor\": \"equation.2\", \"title\": \"方法\"}, \"eq:mse\": {\"number\": \"3\", \"role\": \"equation\", \"anchor\": \"equation.3\", \"title\": \"方法\"}}, \"referenced_keys\": [\"eq:rmse\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "table-reference",
+        "name": "编号表格被正文动态引用",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"numbered_objects\": {\"tab:metrics\": {\"number\": \"1\", \"role\": \"table\", \"anchor\": \"table.caption.3\", \"title\": \"温度误差汇总（教学合成数据）。\"}}, \"referenced_keys\": [\"tab:metrics\"]}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "data-metrics",
+        "name": "从原始 CSV 独立计算 RMSE 与 MAE",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"n\": 6, \"metrics\": {\"Baseline\": {\"RMSE\": 1.0, \"MAE\": 1.0}, \"Calibrated\": {\"RMSE\": 0.5, \"MAE\": 0.5}}}",
+        "detail": "Python 按数值定义重算；不读取 TeX 公式来计算，也不证明 TeX 公式语义正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "data/observations.csv"
+      },
+      {
+        "id": "table-values",
+        "name": "PDF 中两方法的三位小数结果与 CSV 重算一致",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[{\"method\": \"Baseline\", \"expected\": [\"1.000\", \"1.000\"], \"observed_pdf_rows\": [[\"1.000\", \"1.000\"]], \"match\": true}, {\"method\": \"Calibrated\", \"expected\": [\"0.500\", \"0.500\"], \"observed_pdf_rows\": [[\"0.500\", \"0.500\"]], \"match\": true}]",
+        "detail": "支持 PDF 文本中“方法名 RMSE MAE”的连续行；复杂拆行、转置或宏排版可能无法提取，需按列自行复核。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "summary-values",
+        "name": "导入用 summary.csv 与原始观测的计算结果一致",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[{\"method\": \"Baseline\", \"RMSE_C\": \"1.000\", \"MAE_C\": \"1.000\"}, {\"method\": \"Calibrated\", \"RMSE_C\": \"0.500\", \"MAE_C\": \"0.500\"}]",
+        "detail": "检查两个指标列与方法名称，按三位小数的舍入误差比较。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "data/summary.csv"
+      },
+      {
+        "id": "table-booktabs",
+        "name": "三线表命令出现在参与构建的源码",
+        "status": "pass",
+        "pass": true,
+        "evidence": "静态检查 booktabs 的三个命令，并要求真实构建成功。",
+        "detail": "此项只检查命令存在；不判断线条位置、表头含义或视觉质量。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "synthetic-output",
+        "name": "PDF 出现教学合成数据说明",
+        "status": "pass",
+        "pass": true,
+        "evidence": "本次 PDF 提取文本中的“合成”标识。",
+        "detail": "存在说明不代表全文科研表述都恰当，仍需检查结论。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "bib-entries",
+        "name": "references.bib 含三个唯一的指定主键",
+        "status": "pass",
+        "pass": true,
+        "evidence": "einstein1905, knuth1984, lamport1994",
+        "detail": "仅检查主键存在和唯一；来源真实性及字段正确性需另行核对。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "references.bib"
+      },
+      {
+        "id": "bib-order",
+        "name": "实际引用及 Biber 输出的前三项为 Lamport、Knuth、Einstein",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"aux_first_citations\": [\"lamport1994\", \"knuth1984\", \"einstein1905\"], \"bbl_entry_order\": [\"lamport1994\", \"knuth1984\", \"einstein1905\"]}",
+        "detail": "从真实 .aux 和 .bbl 读取顺序；不根据 .bib 的文件排列推断编号。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "bib-output",
+        "name": "PDF 文献表中三个数字编号对应指定作者",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[1] Leslie Lamport\n[2] Donald E. Knuth\n[3] Albert Einstein",
+        "detail": "核对提取文本中的 [1]/[2]/[3] 与作者同一行；特殊换行无法可靠判读时需复核 PDF。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "template-class",
+        "name": "配套 labpaper.cls 保持原样",
+        "status": "pass",
+        "pass": true,
+        "evidence": "00b67905ccf0e59f3988a24eb348783e2d5dc516926a6838df79369af18fde92",
+        "detail": "检测条件成立。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "labpaper.cls"
+      },
+      {
+        "id": "template-layout",
+        "name": "review 模板及日志中的双栏、20 mm 左右边距",
+        "status": "pass",
+        "pass": true,
+        "evidence": "review=True; twocolumn=True; h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt); 正文重设命令=[]",
+        "detail": "检查模板入口与 geometry 初始日志；页内局部排版和上下边距须在 PDF 自查。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "template-a4",
+        "name": "实际 PDF 页面尺寸为 A4",
+        "status": "pass",
+        "pass": true,
+        "evidence": "Page size:       595.28 x 841.89 pts",
+        "detail": "检测条件成立。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "template-anonymous",
+        "name": "实际 PDF 出现匿名作者，Author 元数据为空或匿名",
+        "status": "pass",
+        "pass": true,
+        "evidence": "PDF 中匿名作者=True; 没有 Author 元数据字段",
+        "detail": "只核对作者显示与 Author 字段，不检查致谢、项目名、图像或其他元数据中的身份。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      }
+    ],
+    "selfcheck_status": "passed",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "07",
+    "kind": "starter",
+    "entry": "main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "biber",
+        "main"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\07-starter-main.tex\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\07-starter-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\07-starter-main.tex\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\07-starter-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nbiber main\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "no-todo",
+        "name": "实际正文源码无 TODO 占位符",
+        "status": "fail",
+        "pass": false,
+        "evidence": "[('sections/intro.tex', 5)]",
+        "detail": "仅扫描参与正文的源码，不把任务书里的 TODO 说明算作失败。",
+        "next_action": "处理列出的正文占位符并重新编译。"
+      },
+      {
+        "id": "structure-inputs",
+        "name": "至少三份章节文件被本次引擎实际读入",
+        "status": "pass",
+        "pass": true,
+        "evidence": "recorder .fls 中的章节：sections/intro.tex, sections/method.tex, sections/results.tex",
+        "detail": "根据引擎实际读入记录核验，文件仅存在于目录中不算通过。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-single-root",
+        "name": "读入章节不再包含另一份文档入口",
+        "status": "pass",
+        "pass": true,
+        "evidence": "章节未包含 documentclass 或 document 环境。",
+        "detail": "仅对三份指定章节检查重复入口。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "structure-labels",
+        "name": "至少三个主要章节已产生稳定标签编号",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{}",
+        "detail": "标签键可自由命名；依据实际 section 编号识别。",
+        "next_action": "为三个真实章节分别设置稳定 label，并重新编译。"
+      },
+      {
+        "id": "structure-references",
+        "name": "正文动态引用了已编号的章节",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{\"numbered_objects\": {}, \"referenced_keys\": []}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "给相应编号对象设置 label，并在正文用动态引用；若使用自定义宏，查看 PDF 和日志复核该宏展开后的对象。"
+      },
+      {
+        "id": "structure-output",
+        "name": "摘要与三个章节标题可在 PDF 中定位",
+        "status": "fail",
+        "pass": false,
+        "evidence": "PDF 文本含摘要/引言/方法/结果；编号证据另列于章节标签项。",
+        "detail": "只核对文字输出，不判断摘要质量。",
+        "next_action": "使用真实 abstract 和 section 结构，重新编译检查目录及标题。"
+      },
+      {
+        "id": "figure-assets",
+        "name": "本次编译确实读入两幅配套图像资源",
+        "status": "fail",
+        "pass": false,
+        "evidence": "baseline.pdf: figures/baseline.pdf\ncalibrated.pdf: 未发现读入的配套原始素材",
+        "detail": "使用 .fls 与素材 SHA-256 核对读入资源；不能据此判断图像是否被遮挡、裁剪或比例合适。",
+        "next_action": "用相对路径插入 figures 中的两幅原始 PDF 素材，避免占位框；若有意更换素材，请自行核对并说明。"
+      },
+      {
+        "id": "figure-references",
+        "name": "总图产生编号并被正文动态引用",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{\"numbered_objects\": {}, \"referenced_keys\": []}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "给相应编号对象设置 label，并在正文用动态引用；若使用自定义宏，查看 PDF 和日志复核该宏展开后的对象。"
+      },
+      {
+        "id": "figure-subreferences",
+        "name": "两个子图产生编号并被正文动态引用",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{\"numbered_objects\": {}, \"referenced_keys\": []}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "给相应编号对象设置 label，并在正文用动态引用；若使用自定义宏，查看 PDF 和日志复核该宏展开后的对象。"
+      },
+      {
+        "id": "figure-subnumbers",
+        "name": "存在同一总图下的两个不同子编号",
+        "status": "fail",
+        "pass": false,
+        "evidence": "实际 .aux 子图编号：",
+        "detail": "依据实际编号，不强制 subfigure 的单一实现语法或标签键。",
+        "next_action": "使用一个总图下的两个子图，检查 caption/label 顺序及子图编号。"
+      },
+      {
+        "id": "math-reference",
+        "name": "编号公式被正文动态引用",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{\"numbered_objects\": {}, \"referenced_keys\": []}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "给相应编号对象设置 label，并在正文用动态引用；若使用自定义宏，查看 PDF 和日志复核该宏展开后的对象。"
+      },
+      {
+        "id": "table-reference",
+        "name": "编号表格被正文动态引用",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{\"numbered_objects\": {}, \"referenced_keys\": []}",
+        "detail": "按本次 aux 编号对象和正文引用识别，允许自行命名标签；不强制参考解的键。",
+        "next_action": "给相应编号对象设置 label，并在正文用动态引用；若使用自定义宏，查看 PDF 和日志复核该宏展开后的对象。"
+      },
+      {
+        "id": "data-metrics",
+        "name": "从原始 CSV 独立计算 RMSE 与 MAE",
+        "status": "pass",
+        "pass": true,
+        "evidence": "{\"n\": 6, \"metrics\": {\"Baseline\": {\"RMSE\": 1.0, \"MAE\": 1.0}, \"Calibrated\": {\"RMSE\": 0.5, \"MAE\": 0.5}}}",
+        "detail": "Python 按数值定义重算；不读取 TeX 公式来计算，也不证明 TeX 公式语义正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "data/observations.csv"
+      },
+      {
+        "id": "table-values",
+        "name": "PDF 中两方法的三位小数结果与 CSV 重算一致",
+        "status": "fail",
+        "pass": false,
+        "evidence": "[{\"method\": \"Baseline\", \"expected\": [\"1.000\", \"1.000\"], \"observed_pdf_rows\": [[\"1.000\", \"1.000\"]], \"match\": true}, {\"method\": \"Calibrated\", \"expected\": [\"0.500\", \"0.500\"], \"observed_pdf_rows\": [[\"0.050\", \"0.500\"]], \"match\": false}]",
+        "detail": "支持 PDF 文本中“方法名 RMSE MAE”的连续行；复杂拆行、转置或宏排版可能无法提取，需按列自行复核。",
+        "next_action": "用 data-metrics 的计算结果更新表格，确认 RMSE/MAE 列顺序并重新编译；无法提取时查看 PDF 提交给智能体复核。"
+      },
+      {
+        "id": "summary-values",
+        "name": "导入用 summary.csv 与原始观测的计算结果一致",
+        "status": "pass",
+        "pass": true,
+        "evidence": "[{\"method\": \"Baseline\", \"RMSE_C\": \"1.000\", \"MAE_C\": \"1.000\"}, {\"method\": \"Calibrated\", \"RMSE_C\": \"0.500\", \"MAE_C\": \"0.500\"}]",
+        "detail": "检查两个指标列与方法名称，按三位小数的舍入误差比较。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "data/summary.csv"
+      },
+      {
+        "id": "table-booktabs",
+        "name": "三线表命令出现在参与构建的源码",
+        "status": "fail",
+        "pass": false,
+        "evidence": "静态检查 booktabs 的三个命令，并要求真实构建成功。",
+        "detail": "此项只检查命令存在；不判断线条位置、表头含义或视觉质量。",
+        "next_action": "在表格内使用 top/mid/bottomrule；用 PDF 检查表头与单位。"
+      },
+      {
+        "id": "synthetic-output",
+        "name": "PDF 出现教学合成数据说明",
+        "status": "pass",
+        "pass": true,
+        "evidence": "本次 PDF 提取文本中的“合成”标识。",
+        "detail": "存在说明不代表全文科研表述都恰当，仍需检查结论。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "bib-entries",
+        "name": "references.bib 含三个唯一的指定主键",
+        "status": "fail",
+        "pass": false,
+        "evidence": "einstein1905, knuth1984",
+        "detail": "仅检查主键存在和唯一；来源真实性及字段正确性需另行核对。",
+        "next_action": "将 incoming.bib 中条目合入 references.bib，保留另外两条并消除重复主键。",
+        "file": "references.bib"
+      },
+      {
+        "id": "bib-order",
+        "name": "实际引用及 Biber 输出的前三项为 Lamport、Knuth、Einstein",
+        "status": "fail",
+        "pass": false,
+        "evidence": "{\"aux_first_citations\": [\"knuth1984\", \"einstein1905\"], \"bbl_entry_order\": [\"einstein1905\", \"knuth1984\"]}",
+        "detail": "从真实 .aux 和 .bbl 读取顺序；不根据 .bib 的文件排列推断编号。",
+        "next_action": "调整正文首次 cite 顺序，设置 sorting=none，并让 Biber 与 XeLaTeX 完整重跑。"
+      },
+      {
+        "id": "bib-output",
+        "name": "PDF 文献表中三个数字编号对应指定作者",
+        "status": "fail",
+        "pass": false,
+        "evidence": "\n[2]   Donald E. Knuth\n",
+        "detail": "核对提取文本中的 [1]/[2]/[3] 与作者同一行；特殊换行无法可靠判读时需复核 PDF。",
+        "next_action": "主文档启用 numeric 样式、输出文献表；核对编译链和实际 PDF。"
+      },
+      {
+        "id": "template-class",
+        "name": "配套 labpaper.cls 保持原样",
+        "status": "pass",
+        "pass": true,
+        "evidence": "00b67905ccf0e59f3988a24eb348783e2d5dc516926a6838df79369af18fde92",
+        "detail": "检测条件成立。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "labpaper.cls"
+      },
+      {
+        "id": "template-layout",
+        "name": "review 模板及日志中的双栏、20 mm 左右边距",
+        "status": "fail",
+        "pass": false,
+        "evidence": "review=False; twocolumn=False; h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt); 正文重设命令=[]",
+        "detail": "检查模板入口与 geometry 初始日志；页内局部排版和上下边距须在 PDF 自查。",
+        "next_action": "通过模板选项启用 review，检查实际 geometry 输出；不要覆盖模板的纸张和边距。"
+      },
+      {
+        "id": "template-a4",
+        "name": "实际 PDF 页面尺寸为 A4",
+        "status": "pass",
+        "pass": true,
+        "evidence": "Page size:       595.28 x 841.89 pts",
+        "detail": "检测条件成立。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      },
+      {
+        "id": "template-anonymous",
+        "name": "实际 PDF 出现匿名作者，Author 元数据为空或匿名",
+        "status": "fail",
+        "pass": false,
+        "evidence": "PDF 中匿名作者=False; 没有 Author 元数据字段",
+        "detail": "只核对作者显示与 Author 字段，不检查致谢、项目名、图像或其他元数据中的身份。",
+        "next_action": "开启 review，清理 hypersetup 的 pdfauthor 并打开 PDF 自查残留身份。"
+      }
+    ],
+    "selfcheck_status": "needs_work",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "lab"
+  },
+  {
+    "lab": "05",
+    "kind": "solution",
+    "entry": "legacy/main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "bibtex",
+        "main"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\05-solution-legacy-main.tex\\legacy\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\05-solution-legacy-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\05-solution-legacy-main.tex\\legacy\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\05-solution-legacy-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nbibtex main\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "legacy/main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      }
+    ],
+    "selfcheck_status": "passed",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "build"
+  },
+  {
+    "lab": "06",
+    "kind": "solution",
+    "entry": "thesis/main.tex",
+    "compiled": true,
+    "exit_code": 0,
+    "commands": [
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ],
+      [
+        "xelatex",
+        "-no-shell-escape",
+        "-recorder",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "main.tex"
+      ]
+    ],
+    "warnings": [],
+    "errors": [],
+    "pdf": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\06-solution-thesis-main.tex\\thesis\\main.pdf",
+    "build_dir": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\06-solution-thesis-main.tex",
+    "log": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\06-solution-thesis-main.tex\\thesis\\main.log",
+    "transcript": "${PROJECT_ROOT}\\_build\\validation-20261003-111723\\06-solution-thesis-main.tex\\build-transcript.txt",
+    "blocked_reason": null,
+    "checks": [
+      {
+        "id": "build",
+        "name": "在全新副本中完成真实编译",
+        "status": "pass",
+        "pass": true,
+        "evidence": "xelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\nxelatex -no-shell-escape -recorder -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error main.tex\n",
+        "detail": "新副本完成引擎和所需文献后端的完整构建。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。",
+        "file": "thesis/main.tex"
+      },
+      {
+        "id": "log-clean",
+        "name": "最终日志无未解析引用、重复标签、待重跑、溢出或缺字提示",
+        "status": "pass",
+        "pass": true,
+        "evidence": "最终日志未命中所列警告类型。",
+        "detail": "只检查上述已列出的日志类型；没有警告不能证明所有视觉效果正确。",
+        "next_action": "修改后重新运行 check；继续完成 PDF 自查和变式实验。"
+      }
+    ],
+    "selfcheck_status": "passed",
+    "selfcheck_schema": "latexlab.check.v2",
+    "selfcheck_scope": "build"
+  }
+]

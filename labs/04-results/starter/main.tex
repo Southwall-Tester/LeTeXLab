@@ -1,0 +1,25 @@
+% !TeX program = xelatex
+\documentclass[UTF8,fontset=fandol,a4paper,11pt]{ctexart}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,graphicx,booktabs,array,tabularx,subcaption}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{figures/}}
+\title{室内温度校正：排版练习}
+\author{研究助理}
+\date{}
+\begin{document}
+\maketitle
+\section{方法}
+下面这段来自智能体，能够编译，但语义待检查。
+\begin{equation}
+\operatorname{RMSE}=\frac{1}{n}\sum_{i=1}^{n}|\hat y_i-y_i|.
+\end{equation}
+\section{结果}
+\begin{tabular}{|l|r|r|}\hline
+方法 & RMSE & MAE\\\hline
+Baseline & 1.000 & 1.000\\
+Calibrated & 0.050 & 0.500\\\hline
+\end{tabular}
+% TODO: 核对原始 CSV，生成规范表格，补充公式解释和引用。
+
+\end{document}

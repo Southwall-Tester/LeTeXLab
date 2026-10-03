@@ -1,0 +1,320 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+
+entering extended mode
+
+(./main.tex
+
+LaTeX2e <2025-11-01>
+
+L3 programming layer <2026-01-19>
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexart.cls
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+
+TEX)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexhook.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/fix-cm.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/ts1enc.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/article.cls
+
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/size10.clo))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+
+(d:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+(d:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.d
+
+ef (d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctex-c5size.clo)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty)
+
+No file main.aux.
+
+
+
+Package natbib Warning: Citation `lamport1994' on page 1 undefined on input lin
+
+e 5.
+
+
+
+
+
+Package natbib Warning: Citation `knuth1984' on page 1 undefined on input line 
+
+5.
+
+
+
+No file main.bbl.
+
+
+
+Package natbib Warning: There were undefined citations.
+
+
+
+[1] (./main.aux) )
+
+Output written on main.pdf (1 page).
+
+SyncTeX written on main.synctex.gz.
+
+
+
+Transcript written on main.log.
+
+
+
+This is BibTeX, Version 0.99e (TeX Live 2026)
+
+The top-level auxiliary file: main.aux
+
+The style file: unsrtnat.bst
+
+Database file #1: references.bib
+
+
+
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+
+entering extended mode
+
+(./main.tex
+
+LaTeX2e <2025-11-01>
+
+L3 programming layer <2026-01-19>
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexart.cls
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+
+TEX)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexhook.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/fix-cm.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/ts1enc.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/article.cls
+
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/size10.clo))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+
+(d:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+(d:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.d
+
+ef (d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctex-c5size.clo)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty) (./main.aux)
+
+
+
+Package natbib Warning: Citation `lamport1994' on page 1 undefined on input lin
+
+e 5.
+
+
+
+
+
+Package natbib Warning: Citation `knuth1984' on page 1 undefined on input line 
+
+5.
+
+
+
+(./main.bbl)
+
+
+
+Package natbib Warning: There were undefined citations.
+
+
+
+[1] (./main.aux
+
+
+
+Package natbib Warning: Citation(s) may have changed.
+
+(natbib)                Rerun to get citations correct.
+
+
+
+) )
+
+Output written on main.pdf (1 page).
+
+SyncTeX written on main.synctex.gz.
+
+
+
+Transcript written on main.log.
+
+
+
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+
+entering extended mode
+
+(./main.tex
+
+LaTeX2e <2025-11-01>
+
+L3 programming layer <2026-01-19>
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexart.cls
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+
+TEX)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexhook.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/fix-cm.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/ts1enc.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/article.cls
+
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/size10.clo))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+
+(d:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+(d:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.d
+
+ef (d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctex-c5size.clo)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty) (./main.aux)
+
+(./main.bbl) [1] (./main.aux) )
+
+Output written on main.pdf (1 page).
+
+SyncTeX written on main.synctex.gz.
+
+
+
+Transcript written on main.log.
+

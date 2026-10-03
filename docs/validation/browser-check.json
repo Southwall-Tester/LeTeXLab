@@ -1,0 +1,21 @@
+{
+  "file_protocol": true,
+  "navigation": true,
+  "hints": true,
+  "report_import": true,
+  "report_state_consistency": true,
+  "report_text_injection_blocked": true,
+  "build_only_report_rejected": true,
+  "real_reference_report_import": true,
+  "standalone_report_links_and_mobile_layout": true,
+  "quiz_feedback": true,
+  "fresh_report_resets_pdf_checks": true,
+  "automatic_and_ai_routes_distinguished": true,
+  "progress_persistence": true,
+  "progress_export_import": true,
+  "legacy_progress_not_machine_verified": true,
+  "mobile_no_horizontal_overflow": true,
+  "external_requests": [],
+  "page_errors": [],
+  "report_fixtures": "UI fixtures only; backend tests cover real TeX builds."
+}

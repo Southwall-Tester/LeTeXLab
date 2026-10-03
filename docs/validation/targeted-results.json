@@ -1,0 +1,78 @@
+{
+  "fault_progression": [
+    {
+      "phase": 0,
+      "last_fix": "未修复",
+      "compiled": false,
+      "errors": [
+        "./main.tex:12: Undefined control sequence.\r"
+      ],
+      "warnings": [
+        "Package hyperref Warning: Rerun to get /PageLabels entry."
+      ]
+    },
+    {
+      "phase": 1,
+      "last_fix": "命令拼写",
+      "compiled": false,
+      "errors": [
+        "./main.tex:13: Misplaced alignment tab character &.\r"
+      ],
+      "warnings": [
+        "Package hyperref Warning: Rerun to get /PageLabels entry."
+      ]
+    },
+    {
+      "phase": 2,
+      "last_fix": "正文特殊字符",
+      "compiled": false,
+      "errors": [
+        "./main.tex:14: LaTeX Error: \\begin{itemize} on input line 14 ended by \\end{enum\r"
+      ],
+      "warnings": [
+        "Package hyperref Warning: Rerun to get /PageLabels entry."
+      ]
+    },
+    {
+      "phase": 3,
+      "last_fix": "环境闭合",
+      "compiled": false,
+      "errors": [
+        "./main.tex:17: Undefined control sequence.\r"
+      ],
+      "warnings": [
+        "Package hyperref Warning: Rerun to get /PageLabels entry."
+      ]
+    },
+    {
+      "phase": 4,
+      "last_fix": "缺宏包",
+      "compiled": true,
+      "errors": [],
+      "warnings": [
+        "LaTeX Warning: Reference `tab:result' on page 1 undefined on input line 20.",
+        "LaTeX Warning: There were undefined references.",
+        "Overfull \\hbox (159.33821pt too wide) in paragraph at lines 22--23"
+      ]
+    },
+    {
+      "phase": 5,
+      "last_fix": "引用键",
+      "compiled": true,
+      "errors": [],
+      "warnings": [
+        "Overfull \\hbox (159.33821pt too wide) in paragraph at lines 22--23"
+      ]
+    },
+    {
+      "phase": 6,
+      "last_fix": "溢出尺寸",
+      "compiled": true,
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "zip_relocation_compiled": true,
+  "latexmk_recipe_exit": 0,
+  "relocated_pdf": "${PROJECT_ROOT}\\_build\\targeted-20261003-104529\\relocated-build\\main.pdf"
+}

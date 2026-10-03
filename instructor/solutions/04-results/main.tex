@@ -1,0 +1,46 @@
+% !TeX program = xelatex
+\documentclass[UTF8,fontset=fandol,a4paper,11pt]{ctexart}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,graphicx,booktabs,array,tabularx,subcaption}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{figures/}}
+\title{室内温度校正：排版练习}
+\author{研究助理}
+\date{}
+\begin{document}
+\maketitle
+% !TeX root = ../main.tex
+\section{方法}\label{sec:method}
+令 $y_i$ 为真实值，$\hat y_i$ 为预测值，样本数 $n=6$。
+采用式~\eqref{eq:rmse} 的均方根误差，单位与温度相同。
+\begin{equation}
+ \operatorname{RMSE}=\sqrt{\frac{1}{n}\sum_{i=1}^{n}(\hat y_i-y_i)^2}.
+ \label{eq:rmse}
+\end{equation}
+\begin{align}
+ e_i &= \hat y_i-y_i,\label{eq:error}\\
+ \operatorname{MSE} &= \frac{1}{n}\sum_{i=1}^{n}e_i^2.\label{eq:mse}
+\end{align}
+平均绝对误差为 $\operatorname{MAE}=\frac{1}{n}\sum_{i=1}^{n}|e_i|$，
+它与 RMSE 一般不同；本组样本中两者恰好相等。
+用分段函数标记是否超过容差：
+\begin{equation*}
+ q_i=\begin{cases}1,&|e_i|\leq 0.5,\\0,&|e_i|>0.5.\end{cases}
+\end{equation*}
+两个误差样本组成列向量 $\boldsymbol e=\begin{pmatrix}e_1\\e_2\end{pmatrix}$。
+\section{结果}表~\ref{tab:metrics} 给出误差汇总。所有数据为教学合成数据。\begin{table}[htbp]
+ \centering
+ \caption{温度误差汇总（教学合成数据）。}\label{tab:metrics}
+ \begin{tabular}{lrr}
+  \toprule
+  \multicolumn{1}{c}{方法} & \multicolumn{2}{c}{误差（$^\circ$C）}\\
+  \cmidrule(lr){2-3}
+   & RMSE & MAE\\
+  \midrule
+  Baseline & 1.000 & 1.000\\
+  Calibrated & 0.500 & 0.500\\
+  \bottomrule
+ \end{tabular}
+\end{table}
+
+\end{document}

@@ -1,0 +1,16 @@
+work/
+reports/
+_build/
+dist/
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.bcf
+*.bbl
+*.blg
+*.run.xml
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv

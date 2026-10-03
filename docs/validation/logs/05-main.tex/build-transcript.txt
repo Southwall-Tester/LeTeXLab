@@ -1,0 +1,768 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+
+entering extended mode
+
+(./main.tex
+
+LaTeX2e <2025-11-01>
+
+L3 programming layer <2026-01-19>
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexart.cls
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+
+TEX)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexhook.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/fix-cm.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/ts1enc.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/article.cls
+
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/size11.clo))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+
+(d:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+(d:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.d
+
+ef (d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+
+For additional information on amsmath, use the `?' option.
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+
+(d:/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics-def/xetex.def)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/tools/array.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def)
+
+(d:/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/url/url.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/hxetex.def
+
+(d:/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty))
+
+No file main.aux.
+
+*geometry* driver: auto-detecting
+
+*geometry* detected driver: xetex
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx)
+
+No file main.bbl.
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+
+
+LaTeX Warning: Citation 'lamport1994' on page 1 undefined on input line 15.
+
+
+
+
+
+LaTeX Warning: Citation 'knuth1984' on page 1 undefined on input line 16.
+
+
+
+
+
+LaTeX Warning: Citation 'einstein1905' on page 1 undefined on input line 17.
+
+
+
+
+
+LaTeX Warning: Empty bibliography on input line 19.
+
+
+
+
+
+Overfull \hbox (20.58427pt too wide) in paragraph at lines 15--20
+
+[]\TU/FandolSong-Regular(0)/m/n/10.95 文 档 准 备 参 考 \TU/lmr/m/n/10.95 Lamport \TU
+
+/FandolSong-Regular(0)/m/n/10.95 的 教 材 \TU/lmr/m/n/10.95 [[]]\TU/FandolSong-Reg
+
+ular(0)/m/n/10.95 。|  排 版 系 统 背 景 参 考 \TU/lmr/m/n/10.95 Knuth \TU/FandolSong-Re
+
+gular(0)/m/n/10.95 的 著 作 \TU/lmr/m/n/10.95 [[]]\TU/FandolSong-Regular(0)/m/n/10
+
+.95 。|
+
+[1] (./main.aux)
+
+
+
+LaTeX Warning: There were undefined references.
+
+
+
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+
+(rerunfilecheck)                Rerun to get outlines right
+
+(rerunfilecheck)                or use package `bookmark'.
+
+
+
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+
+(biblatex)                main
+
+(biblatex)                and rerun LaTeX afterwards.
+
+
+
+ )
+
+(see the transcript file for additional information)
+
+Output written on main.pdf (1 page).
+
+SyncTeX written on main.synctex.gz.
+
+
+
+Transcript written on main.log.
+
+
+
+perl: warning: Setting locale failed.
+
+perl: warning: Please check that your locale settings:
+
+	LC_ALL = "C.UTF-8",
+
+	LC_CTYPE = "C.UTF-8",
+
+	LANG = "C.UTF-8"
+
+    are supported and installed on your system.
+
+perl: warning: Falling back to the standard locale ("C").
+
+INFO - This is Biber 2.21
+
+INFO - Logfile is 'main.blg'
+
+INFO - Reading 'main.bcf'
+
+INFO - Found 3 citekeys in bib section 0
+
+INFO - Processing section 0
+
+INFO - Looking for bibtex file 'references.bib' for section 0
+
+INFO - LaTeX decoding ...
+
+INFO - Found BibTeX data source 'references.bib'
+
+INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+
+INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+
+INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+
+INFO - No sort tailoring available for locale 'en-US'
+
+INFO - Writing 'main.bbl' with encoding 'UTF-8'
+
+INFO - Output to main.bbl
+
+
+
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+
+entering extended mode
+
+(./main.tex
+
+LaTeX2e <2025-11-01>
+
+L3 programming layer <2026-01-19>
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexart.cls
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+
+TEX)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexhook.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/fix-cm.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/ts1enc.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/article.cls
+
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/size11.clo))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+
+(d:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+(d:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.d
+
+ef (d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+
+For additional information on amsmath, use the `?' option.
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+
+(d:/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics-def/xetex.def)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/tools/array.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def)
+
+(d:/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/url/url.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/hxetex.def
+
+(d:/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty)) (./main.aux
+
+)
+
+*geometry* driver: auto-detecting
+
+*geometry* detected driver: xetex
+
+(./main.out) (./main.out)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx) (./main.bbl)
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd) [1] (./main.aux)
+
+
+
+LaTeX Warning: There were undefined references.
+
+
+
+
+
+Package biblatex Warning: Please rerun LaTeX.
+
+
+
+ )
+
+Output written on main.pdf (1 page).
+
+SyncTeX written on main.synctex.gz.
+
+
+
+Transcript written on main.log.
+
+
+
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+
+entering extended mode
+
+(./main.tex
+
+LaTeX2e <2025-11-01>
+
+L3 programming layer <2026-01-19>
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexart.cls
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+
+TEX)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexhook.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/fix-cm.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/ts1enc.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/article.cls
+
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/size11.clo))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+
+(d:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+(d:/texlive/2026/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.d
+
+ef (d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+
+For additional information on amsmath, use the `?' option.
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+
+(d:/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/graphics-def/xetex.def)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/tools/array.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def)
+
+(d:/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/url/url.sty)
+
+(d:/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/hyperref/hxetex.def
+
+(d:/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(d:/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
+
+(d:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def))
+
+(d:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty)) (./main.aux
+
+)
+
+*geometry* driver: auto-detecting
+
+*geometry* detected driver: xetex
+
+(./main.out) (./main.out)
+
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx) (./main.bbl)
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
+
+(d:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd) [1] (./main.aux) )
+
+Output written on main.pdf (1 page).
+
+SyncTeX written on main.synctex.gz.
+
+
+
+Transcript written on main.log.
+

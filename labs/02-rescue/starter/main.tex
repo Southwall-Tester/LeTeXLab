@@ -1,0 +1,24 @@
+% !TeX program = xelatex
+\documentclass[UTF8,fontset=fandol,a4paper,11pt]{ctexart}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,graphicx,array,tabularx,subcaption}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{figures/}}
+\title{室内温度校正：排版练习}
+\author{研究助理}
+\date{}
+\begin{document}
+\maketitle
+\sectoin{故障合并稿}\label{sec:rescue}
+合作组 A&B 给出的数据如下。内容必须保留。
+\begin{itemize}\item 第一项：保留数据。\item 第二项：核对单位。\end{enumerate}
+\begin{table}[htbp]\centering
+\caption{两方法的误差}\label{tab:results}
+\begin{tabular}{lr}\toprule 方法 & RMSE\\\midrule
+Baseline & 1.000\\Calibrated & 0.500\\\bottomrule\end{tabular}
+\end{table}
+表~\ref{tab:result} 给出结果。
+
+\noindent\rule{1.35\linewidth}{2pt}
+
+\end{document}

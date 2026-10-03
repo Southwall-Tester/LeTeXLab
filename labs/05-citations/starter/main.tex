@@ -1,0 +1,21 @@
+% !TeX program = xelatex
+\documentclass[UTF8,fontset=fandol,a4paper,11pt]{ctexart}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,graphicx,booktabs,array,tabularx,subcaption}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{figures/}}
+\usepackage[backend=biber,style=alphabetic,sorting=nyt]{biblatex}
+\addbibresource{references.bib}
+\title{室内温度校正：排版练习}
+\author{研究助理}
+\date{}
+\begin{document}
+\maketitle
+\section{资料引用练习}
+文档准备参考 Lamport 的教材\cite{lamport1994}。
+排版系统背景参考 Knuth 的著作\cite{knuth1984}。
+Einstein 的论文\cite{einstein1905}仅用于练习期刊条目的导入与引用，
+并非温度校正方法的理论依据。
+\printbibliography[title={参考文献}]
+
+\end{document}

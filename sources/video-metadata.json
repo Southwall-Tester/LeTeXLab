@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1Z24y157GM",
+  "title": "从零开始使用 LaTeX 排版论文",
+  "desc": "2023.4.1 SJTU 图书馆专题培训讲座：从零开始使用 LaTeX 排版（毕业）论文。开头9页因为腾讯会议没录到，后续补录的，讲得比较卡顿，可以直接跳过。\n\nSJTUThesis 毕业论文模板：https://github.com/sjtug/SJTUThesis\n讲座 slides 源码：https://github.com/sjtug/sjtulib-latex-talk/tree/rc-2023",
+  "duration": 3795,
+  "pages": [
+    {
+      "cid": 1085464582,
+      "page": 1,
+      "from": "vupload",
+      "part": "从零开始使用 LaTeX 排版论文",
+      "duration": 3795,
+      "vid": "",
+      "weblink": "",
+      "dimension": {
+        "width": 1920,
+        "height": 960,
+        "rotate": 0
+      },
+      "first_frame": "http://i1.hdslb.com/bfs/storyff/n230406qn85su4xsd7zv61a22fohf4bl_firsti.jpg",
+      "ctime": 1680781091
+    }
+  ],
+  "retrieved": "2026-10-03",
+  "evidence": "public metadata, not playback"
+}

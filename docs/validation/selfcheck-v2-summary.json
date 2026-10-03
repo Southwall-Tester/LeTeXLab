@@ -1,0 +1,146 @@
+[
+  {
+    "lab": "00",
+    "kind": "solution",
+    "entry": "main.tex",
+    "status": "passed",
+    "scope": "lab",
+    "checks": 4
+  },
+  {
+    "lab": "00",
+    "kind": "starter",
+    "entry": "main.tex",
+    "status": "needs_work",
+    "scope": "lab",
+    "checks": 4
+  },
+  {
+    "lab": "01",
+    "kind": "solution",
+    "entry": "main.tex",
+    "status": "passed",
+    "scope": "lab",
+    "checks": 9
+  },
+  {
+    "lab": "01",
+    "kind": "starter",
+    "entry": "main.tex",
+    "status": "needs_work",
+    "scope": "lab",
+    "checks": 9
+  },
+  {
+    "lab": "02",
+    "kind": "solution",
+    "entry": "main.tex",
+    "status": "passed",
+    "scope": "lab",
+    "checks": 5
+  },
+  {
+    "lab": "02",
+    "kind": "starter",
+    "entry": "main.tex",
+    "status": "needs_work",
+    "scope": "lab",
+    "checks": 5
+  },
+  {
+    "lab": "03",
+    "kind": "solution",
+    "entry": "main.tex",
+    "status": "passed",
+    "scope": "lab",
+    "checks": 7
+  },
+  {
+    "lab": "03",
+    "kind": "starter",
+    "entry": "main.tex",
+    "status": "needs_work",
+    "scope": "lab",
+    "checks": 7
+  },
+  {
+    "lab": "04",
+    "kind": "solution",
+    "entry": "main.tex",
+    "status": "passed",
+    "scope": "lab",
+    "checks": 10
+  },
+  {
+    "lab": "04",
+    "kind": "starter",
+    "entry": "main.tex",
+    "status": "needs_work",
+    "scope": "lab",
+    "checks": 10
+  },
+  {
+    "lab": "05",
+    "kind": "solution",
+    "entry": "main.tex",
+    "status": "passed",
+    "scope": "lab",
+    "checks": 6
+  },
+  {
+    "lab": "05",
+    "kind": "starter",
+    "entry": "main.tex",
+    "status": "needs_work",
+    "scope": "lab",
+    "checks": 6
+  },
+  {
+    "lab": "06",
+    "kind": "solution",
+    "entry": "main.tex",
+    "status": "passed",
+    "scope": "lab",
+    "checks": 25
+  },
+  {
+    "lab": "06",
+    "kind": "starter",
+    "entry": "main.tex",
+    "status": "needs_work",
+    "scope": "lab",
+    "checks": 25
+  },
+  {
+    "lab": "07",
+    "kind": "solution",
+    "entry": "main.tex",
+    "status": "passed",
+    "scope": "lab",
+    "checks": 26
+  },
+  {
+    "lab": "07",
+    "kind": "starter",
+    "entry": "main.tex",
+    "status": "needs_work",
+    "scope": "lab",
+    "checks": 26
+  },
+  {
+    "lab": "05",
+    "kind": "solution",
+    "entry": "legacy/main.tex",
+    "status": "passed",
+    "scope": "build",
+    "checks": 2
+  },
+  {
+    "lab": "06",
+    "kind": "solution",
+    "entry": "thesis/main.tex",
+    "status": "passed",
+    "scope": "build",
+    "checks": 2
+  }
+]

@@ -1,0 +1,1298 @@
+% !TeX root = ../../latex-talk.tex
+
+\part{SJTUThesis}
+
+\begin{frame}
+
+  \frametitle{本部分主要参考}
+
+  \begin{bibliolist}{00}
+
+    \onlineitem \textsc{SJTUG}.
+
+    \newblock \textsc{SJTUThesis} 示例文档[EB/OL].
+
+    \newblock 2022. \url{https://github.com/sjtug/SJTUThesis}.
+
+    \onlineitem \textsc{SJTUG}.
+
+    \newblock \textsc{SJTUThesis} 用户文档[EB/OL].
+
+    \newblock 2022. \url{https://github.com/sjtug/SJTUTeX}.
+
+  \end{bibliolist}
+
+\end{frame}
+
+\begin{frame}
+
+  \frametitle{简介}
+
+  \begin{columns}
+
+    \begin{column}{0.6\textwidth}
+
+      \begin{itemize}
+
+        \item 最早由韦建文于 2009 年 11 月发布 0.1a 版
+
+        \item 2018 年起由 SJTUG 接手维护
+
+        \item 2019 年 6 月吴伟健重构了整个宏包的代码，升级版本号为 1.0
+
+        \item 2022 年 11 月模板改版后，吴伟健、李子龙、张驰等人使用 \LaTeX3 重构 2.0 版本
+
+        \item 最新版：\SJTUThesisVersion{} (\SJTUThesisDate)
+
+        \item 支持本科、硕士、博士学位论文的排版
+
+        \item 推荐使用最新版本的 \TeX{} 发行版编译
+
+      \end{itemize}
+
+    \end{column}
+
+    \begin{column}{0.4\textwidth}
+
+      \begin{exampleblock}{}
+
+        \begin{minipage}[c]{1cm}
+
+          \includegraphics[width=0.8cm]{\getcontribpath{sjtug}{vi/sjtug}}
+
+        \end{minipage}
+
+        \begin{minipage}[c]{3cm}
+
+          \href{https://github.com/sjtug}{sjtug}/\href{https://github.com/sjtug/SJTUThesis}{SJTUThesis}
+
+        \end{minipage}
+
+      \end{exampleblock}
+
+      \vspace{-8pt}
+
+      \begin{block}{}
+
+        \scriptsize
+
+        上海交通大学 \hologo{XeLaTeX} 学位论文模板 | Shanghai Jiao Tong University \hologo{XeLaTeX} Thesis Template
+
+      \end{block}
+
+      \vspace{-8pt}
+
+      \begin{alertblock}{}
+
+        \scriptsize
+
+        \begin{tabular}{cl}
+
+          \faStar & 2.8k \\
+
+          \faEye & 54 \\
+
+          \faCodeBranch & 734 \\
+
+        \end{tabular}
+
+      \end{alertblock}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}
+
+  \frametitle{\only<1>{为什么使用 \LaTeX{} 排版论文？}\only<2>{当然它们也互相学习}}
+
+  \begin{columns}[t]
+
+    \begin{column}{0.25\textwidth}
+
+      \begin{exampleblock}{Markdown}
+
+        \begin{itemize}
+
+          \item[\faPlus] 技术文档流行
+
+          \item[\faPlus] 语法简单
+
+          \item[\faMinus] 不内置格式控制
+
+        \end{itemize}
+
+      \end{exampleblock}
+
+      \only<2>{
+
+        \begin{block}{}
+
+          \begin{itemize}
+
+            \item[\faBolt] R Markdown (Bookdown) 模板 \link{https://github.com/bubifengyun/SJTUThesis-Rmd}
+
+            \item[\faAsterisk] 配套 MathJax 渲染公式
+
+          \end{itemize}
+
+        \end{block}
+
+      }
+
+    \end{column}
+
+    \begin{column}{0.25\textwidth}
+
+      \begin{exampleblock}{Word}
+
+        \begin{itemize}
+
+          \item[\faPlus] 通用论文格式
+
+          \item[\faPlus] 所见即所得
+
+          \item[\faMinus] 进阶排版仍困难
+
+        \end{itemize}
+
+      \end{exampleblock}
+
+      \only<2>{
+
+        \begin{block}{}
+
+          \begin{itemize}
+
+            \item[\faBolt] 数学公式可以直接通过 \LaTeX{} 格式转换
+
+            \item[\faAsterisk] 也就是 Unicode Math 输入方式
+
+          \end{itemize}
+
+        \end{block}
+
+      }
+
+    \end{column}
+
+    \begin{column}{0.25\textwidth}
+
+      \begin{exampleblock}{\LaTeX{}}
+
+        \begin{itemize}
+
+          \item[\faPlus] 学术论文格式
+
+          \item[\faPlus] 内容样式分离
+
+          \item[\faMinus] 上手有门槛
+
+        \end{itemize}
+
+      \end{exampleblock}
+
+      \only<2>{
+
+        \begin{block}{}
+
+          \begin{itemize}
+
+            \item[\faBolt] \TeX{} 的可视前端 \hologo{LyX} \link{https://www.lyx.org/Download} Overleaf Rich Text 模式
+
+            \item[\faAsterisk] \TeX{} 的可视改良 \TeX{}\raise-0.25em\hbox{\footnotesize MACS} \link{http://texmacs.org/tmweb/home/welcome.en.html} \link{https://mogan.app}
+
+          \end{itemize}
+
+        \end{block}
+
+      }
+
+    \end{column}
+
+    \begin{column}{0.25\textwidth}
+
+      \begin{exampleblock}{Typst}
+
+        \begin{itemize}
+
+          \item[\faPlus] 渲染速度快
+
+          \item[\faPlus] 简单且可定制
+
+          \item[\faMinus] 目前还不成熟
+
+        \end{itemize}
+
+      \end{exampleblock}
+
+      \only<2>{
+
+        \begin{block}{}
+
+          \begin{itemize}
+
+            \item[\faBolt] 致力于像 \LaTeX 一样强大，但同时简单易用
+
+          \end{itemize}
+
+        \end{block}
+
+      }
+
+    \end{column}
+
+  \end{columns}
+
+  \note{\emph{这页仅作简要介绍。}
+
+  让我们来讨论 the elephant in the room：为什么用 \LaTeX{} 排版论文？
+
+  }
+
+  \note<1>[item]{Markdown 很好啊，方便的语法，一般技术文档也常用。但就是因为它太简单了，没有内置样式控制，一般需要借助 HTML,CSS 那一套东西。}
+
+  \note<2>[item]{也会有一些人尝试通过 R Markdown（Bookdown）改进，当然你也可以试着使用 \LaTeX{} 里的 \pkg{markdown} 宏包
+
+  （这有点像各种前端博客框架渲染 Markdown 为 HTML，只不过这里渲染 \LaTeX{} 生成 PDF，代码抄录方面已经有 Sphinx 这个工具 \link{https://github.com/sphinx-doc/sphinx}），
+
+  以及可以通过 MathJax 渲染 \TeX{} 公式。
+
+  }
+
+  \note<1>[item]{Word 很好啊，官方钦定的论文写作方法，可见即可得，但是进阶排版仍然可以困难。就拿排版公式来说，
+
+  大家以前初高中学的、或者是计算机二级考的 Word 2003 要排版公式，一种是装 MathType 插件，版本间不兼容、一种是搞个域代码+替换字体。}
+
+  \note<2>[item]{Word 2007 之后添加了插入正经的 Unicode 公式功能，但默认的 Calibri Math 字体以及符号布局仍然赶不上 \TeX{} 的美感。
+
+  }
+
+  \note<1>[item]{根据之前学到的一些技巧，看起来不难对吧（虽然有我诱导的成分），然后它内容与样式分离的设计理念已经渗入了很多领域。以及很多学术论文都需要 \LaTeX{} 的提交。}
+
+  \note<2>[item]{当然现在也推出了可见即可得的编辑器 \hologo{LyX}，Overelaf 的可视模式（虽然这两个并不是一个东西）；以及迟先生很喜欢的 TeXmacs，一种不使用 \TeX{} 底层的、但是效果相像的排版程序。
+
+  }
+
+  \note<1>[item]{设计相关专业的同学可能更喜欢 Adobe Indesign，对图文混排更为擅长。但是它也足够复杂，虽然提供了几乎所有的排版用具，但是我还没见过用它排版几十页充满公式的论文的（或许有人会开先河？）。}
+
+  \note<2>[item]{以及传说它用了 \TeX{} 的一些算法，所以 \TeX{} 还是老大哥，兼具美感和批量化处理的折中方法。}
+
+\end{frame}
+
+\begin{frame}
+
+  \frametitle{下载}
+
+  三种方式任选：
+
+  \medskip
+
+  \alert{Git 克隆} 使用 Git 克隆 GitHub SJTUThesis 仓库 \link{https://github.com/sjtug/SJTUThesis} 或 SJTUG 镜像仓库。
+
+  \begin{exampleblock}{\faGit*}
+
+    \ttfamily\small
+
+    git clone https://mirror.sjtu.edu.cn/git/SJTUThesis.git/
+
+  \end{exampleblock}
+
+  \alert{下载压缩包} 在 GitHub 仓库的 Release 页面 \link{https://github.com/sjtug/SJTUThesis/releases} 下载最新的 Source code (zip)。
+
+  \medskip
+
+  \alert{在线平台} 直接使用 Overleaf 链接 \link{https://www.overleaf.com/latex/templates/sjtuthesis-latex-thesis-template-for-shanghai-jiao-tong-university/mkdwbyjbtfgg?r=sdkbtJ4qGS8kDZQQ&rm=d&rs=b}。其他在线平台用户可以下载压缩包，上传至对应平台。
+
+\end{frame}
+
+\begin{frame}
+
+  \frametitle{编译}
+
+  \alert{在线平台} Overleaf 等在线平台在打开模板或上传压缩包后，选择 \hologo{XeLaTeX} 编译器即可编译。
+
+  \medskip
+
+  \alert{VS Code + \LaTeX Workshop} 在命令面板（Ctrl + Shift + P）搜索运行 Build with recipe 并选择 \texttt{latexmk (xelatex)} 即可编译。可在 VS Code 配置文件中设置 \texttt{latex-workshop.latex.recipe.default} 为 \texttt{lastUsed}，此后修改文件并保存时会沿用上次选择的 recipe。
+
+  \medskip
+
+  \alert{手动编译} 推荐使用 \pkg{latexmk} 编译\footnote{\hologo{MiKTeX} 用户需要手动安装 Perl 解释器 \link{https://www.perl.org/get.html} 才能使用 \pkg{latexmk}。}，在不能够利用自带的 \texttt{.latexmkrc} 配置文件的情况下，需要查清楚在对应的编辑器中如何使用 \hologo{XeLaTeX} + \hologo{biber} 编译\footnote{这种情况下，你可能需要查清楚如何全局安装该文档类，并刷新文件名数据库。} \link{https://github.com/sjtug/SJTUThesis/blob/master/README.md}。
+
+  \begin{exampleblock}{\faTerminal}
+
+    \ttfamily\small
+
+    latexmk -xelatex main
+
+  \end{exampleblock}
+
+\end{frame}
+
+\begin{frame}
+
+  \frametitle{手动编译}
+
+  \alert{第一次编译失败} 如果没有办法通过通常方式编译成功，请尝试使用文件夹内附带 \faLinux{}\,\faApple{} \texttt{Makefile} 和 \faWindows{} \texttt{Compile.bat} 进行编译。
+
+  \alert{统计字数} 编写过程中也可以使用对应的命令调用 \TeX{}count 来统计正文字数。
+
+  \begin{columns}
+
+    \begin{column}{0.38\textwidth}
+
+      \begin{exampleblock}{\faLinux{}\,\faApple}
+
+        \ttfamily
+
+        make all\\
+
+        make clean\\
+
+        make cleanall\\
+
+        make wordcount
+
+      \end{exampleblock}
+
+    \end{column}
+
+    \begin{column}{0.38\textwidth}
+
+      \begin{exampleblock}{\faWindows}
+
+        \ttfamily
+
+        ./Compile.bat thesis\\
+
+        ./Compile.bat clean\\
+
+        ./Compile.bat cleanall\\
+
+        ./Compile.bat wordcount
+
+      \end{exampleblock}
+
+    \end{column}
+
+    \begin{column}{0.24\textwidth}
+
+      \begin{block}{\faInfo}
+
+        \ttfamily
+
+        编译论文\\
+
+        清理中间文件\\
+
+        $\hookrightarrow +$删除论文\\
+
+        统计字数
+
+      \end{block}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}[label=compile]
+
+  \frametitle{编译问题排查}
+
+  \begin{columns}
+
+    \begin{column}{0.33\textwidth}
+
+      \begin{alertblock}{无法使用 \texttt{latexmk}\thesisissue{578}}
+
+        \hologo{MiKTeX} 需要安装 Perl 解释器。
+
+      \end{alertblock}
+
+      \begin{alertblock}{\CTeX{} 套装无法编译\thesisissue{446}}
+
+        使用最新 \TeX{} 发行版。\link{https://github.com/Aloft-Lab/CTeX-Installer}
+
+      \end{alertblock}
+
+      \begin{alertblock}{\hologo{pdfLaTeX} 无法编译\thesisissue{444}}
+
+        请使用 \texttt{latexmk}，或更改编辑器设置以 \hologo{XeLaTeX} 编译。
+
+      \end{alertblock}
+
+    \end{column}
+
+    \begin{column}{0.33\textwidth}
+
+      \begin{alertblock}{缺少字体\thesisissue{564} \thesisdiscuss{598}}
+
+        更换字体集，或者安装对应字体。
+
+      \end{alertblock}
+
+      \begin{alertblock}{缺少汉字\thesisissue{533} \thesisdiscuss{617}}
+
+        去除使用 fandol 字体集的设定。或者是安装字体后，改用 \texttt{cjk-font=adobe} 或 \texttt{cjk-font=founder}。
+
+      \end{alertblock}
+
+    \end{column}
+
+    \begin{column}{0.33\textwidth}
+
+      \begin{block}{\faInfoCircle{} README}
+
+        不同编辑器的设置请首先参阅 README \link{https://github.com/sjtug/SJTUThesis/blob/master/README.md} 文档。
+
+      \end{block}
+
+      \begin{block}{\faBookOpen{} Wiki}
+
+        其他编译问题推荐查阅 Wiki \link{https://github.com/sjtug/SJTUThesis/wiki} 的使用说明部分。
+
+      \end{block}
+
+      \begin{block}{\faComments{} Discussions}
+
+        如果实在无法解决，可以前往 Discussions \link{https://github.com/sjtug/SJTUThesis/discussions} 提问交流。
+
+      \end{block}
+
+    \end{column}
+
+  \end{columns}
+
+  \note{两个进阶问题：
+
+  如果之前出现了编译错误，在重新编译前，最好清理一下临时文件（\texttt{make clean}）。
+
+  如果是 biber 出现了问题，还可以尝试 \texttt{rm -rfv \$(biber --cache)}。\thesisdiscuss{774}
+
+  }
+
+\end{frame}
+
+\begin{frame}[label=covers]
+
+  \frametitle{论文组成}
+
+  \begin{figure}[h]
+
+    \centering
+
+    \foreach \thesispage/\thesisnote in {
+
+      1/{中文封面},3/{英文封面},5/{版权页},7/{中文摘要},9/{英文摘要},11/{目录},13/{插图目录},15/{表格目录},
+
+      17/{正文},27/{参考文献},29/{附录},31/{成果},33/{致谢},35/{大摘要}} {%
+
+      \begin{subfigure}{.13\textwidth}
+
+        \centering
+
+        \fzerobox{\includegraphics[width=\textwidth,page=\thesispage]{support/thesis/sample-thesis-zh.pdf}}
+
+        \caption{\thesisnote}
+
+      \end{subfigure}
+
+    }
+
+  \end{figure}
+
+  \note{虽然说符号表在新版中是要放在附录中，但是学位论文规范中却说可以放在正文前，所以你可以自行选择。}
+
+  \note{文档中的彩色框是标识超链接，印刷时不会输出，如果希望关闭可以向 \pkg{hyperref} 宏包添加可选参数 \opt{hidelinks}。}
+
+\end{frame}
+
+\begin{frame}[fragile]
+
+  \frametitle{文档类选项}
+
+  \begin{columns}
+
+    \begin{column}{0.35\textwidth}
+
+      \includegraphics[page=1]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.65\textwidth}
+
+      文档类选项是指在载入文档类时的可选选项，多个选项使用逗号隔开，文档类选项会对所有宏包可见。
+
+      \begin{codeblock}[escapechar="]{main.tex}
+
+% !TeX encoding = UTF-8
+
+% 载入 SJTUThesis 模版
+
+"\highlightline"\documentclass[type=master]{sjtuthesis}
+
+% 选项
+
+%   type=[doctor|master|bachelor],
+
+%   zihao=[-4|5],
+
+%   lang=[zh|en],
+
+%   review,
+
+%   [twoside|oneside],
+
+%   math-style=[ISO|TeX],
+
+      \end{codeblock}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]
+
+  \frametitle{文档类选项}
+
+  \begin{columns}
+
+    \begin{column}{0.3\textwidth}
+
+      \includegraphics[page=1]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.7\textwidth}
+
+      我是学士，写英文论文
+
+      \begin{codeblock}[]{}
+
+|\phantom{}|\documentclass[type=bachelor,lang=en]{sjtuthesis}
+
+      \end{codeblock}
+
+      我是硕士，盲审
+
+      \begin{codeblock}[]{}
+
+|\phantom{}|\documentclass[type=master,review]{sjtuthesis}
+
+      \end{codeblock}
+
+      我是博士，先写着电子版不空页
+
+      \begin{codeblock}[]{}
+
+|\phantom{}|\documentclass[type=doctor,oneside]{sjtuthesis}
+
+      \end{codeblock}
+
+    \end{column}
+
+  \end{columns}
+
+  \note{有 ChatGPT 那味了。}
+
+\end{frame}
+
+\begin{frame}
+
+  \frametitle{文档类选项}
+
+  \begin{columns}
+
+    \begin{column}{0.35\textwidth}
+
+      \includegraphics[page=1,scale=0.9]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.65\textwidth}
+
+      \begin{table}
+
+        \caption{文档类选项}
+
+        \footnotesize
+
+        \begin{tabular}{>{\ttfamily}rll}
+
+          \toprule
+
+          选项 & 含义 & 相关 \\
+
+          \midrule
+
+          type= & 指定论文类型 & 第 \ref{covers} 页\\
+
+          \midrule
+
+          cjk-font= & 指定中文字体 & \\
+
+          text-font= & 指定西文字体 & 第 \ref{frame:fonts} 页\\
+
+          math-font= & 指定数学字体 & \\
+
+          math-style= & 指定数学符号样式 & 第 \ref{frame:math-style} 页\\
+
+          \midrule
+
+          review & 开启盲审模式 & \thesisissue{195} \thesisissue{686} \\
+
+          twoside & 双页模式 & \thesisissue{554} \\
+
+          oneside & 单页模式 & \thesisissue{694} \\
+
+          openright & 章从奇数页开始 & \thesisdiscuss{724} \\
+
+          openany & 章从任意页开始 & \thesisissue{446} \\
+
+          \bottomrule
+
+        \end{tabular}
+
+      \end{table}
+
+      更多文档类选项查阅 \textsc{SJTU\TeX{}} 的开发文档 \link{https://github.com/sjtug/SJTUTeX/releases/download/v1.1.0/sjtuthesis.pdf}。
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}[label={frame:fonts}]
+
+  \frametitle{字体配置}
+
+  \newcommand{\noticemark}{\alert{\normalshape \textopenbullet}}
+
+  \begin{columns}
+
+    \begin{column}{0.35\textwidth}
+
+      \includegraphics[page=1,scale=0.9]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{.65\textwidth}
+
+      相较于 \CTeX{} 使用 \texttt{fontset} 设定中文字体集，
+
+      \SJTUThesis{} 还提供了西文、数学字体集的设定\footnotemark。
+
+      {
+
+        \medskip
+
+        \ttfamily\scriptsize
+
+        \alert{cjk-font=...\hfill 中文字体}
+
+        \stamphrule\medskip
+
+        \foreach \sjtufontname/\sjtufontdesc in {adobe/{adobe \faAdobe\noticemark},{fandol}/{fandol \faLinux{} \noticemark},{founder},mac/{mac \faApple{} \noticemark},windows/{windows \faWindows},ubuntu/{ubuntu \noticemark}}{
+
+          \begin{minipage}{2.2cm}
+
+            \centering
+
+            \includefontpreview{support/thesis/cjkfont-\sjtufontname.pdf}\\
+
+            \raisebox{0.8ex}{\sjtufontdesc}
+
+          \end{minipage}
+
+        }
+
+        \bigskip
+
+        \alert{text-font=..., math-font=...\hfill 西文与数学字体}
+
+        \stamphrule\medskip
+
+        \foreach \sjtufontname/\sjtufontdesc in {{cambria}/{cambria \noticemark},{lm},{newcm}/{newcm \noticemark},{newpx},{newtx},{stixtwo},{times},{xits}/{xits \noticemark}}{
+
+          \begin{minipage}{2cm}
+
+            \centering
+
+            \includefontpreview{support/thesis/latinfont-\sjtufontname.pdf}\\
+
+            \raisebox{0.8ex}{\sjtufontdesc}
+
+          \end{minipage}
+
+        }
+
+      }
+
+    \end{column}
+
+  \end{columns}
+
+  \footnotetext{\noticemark 表示无法使用 pdf\LaTeX{} 编译。}
+
+\end{frame}
+
+\begin{frame}[label={frame:math-style}]
+
+  \frametitle{数学符号样式}
+
+  \begin{columns}
+
+    \begin{column}{0.35\textwidth}
+
+      \includegraphics[page=1,scale=0.9]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.65\textwidth}
+
+      新增数学符号样式 \texttt{math-style} 文档类选项，现在默认为 \texttt{ISO}，
+
+      如果更喜欢原始的 \TeX{} 数学样式，可以切换为 \texttt{TeX}。
+
+      \begin{minipage}[c]{10em}
+
+        \texttt{math-style=ISO}
+
+      \end{minipage}
+
+      \begin{minipage}[c]{5cm}
+
+        \includemathstylepreview{support/thesis/mathstyle-ISO.pdf}
+
+      \end{minipage}
+
+      \begin{minipage}[c]{10em}
+
+        \texttt{math-style=TeX}
+
+      \end{minipage}
+
+      \begin{minipage}[c]{5cm}
+
+        \includemathstylepreview{support/thesis/mathstyle-TeX.pdf}
+
+      \end{minipage}
+
+      \begin{block}{}
+
+        请注意在默认情况下（\texttt{math-style=ISO}）应当使用 \cmd{increment} 而不是 \cmd{Delta} 表示有限增量。
+
+      \end{block}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]
+
+  \frametitle{基本配置}
+
+  \begin{columns}
+
+    \begin{column}{0.35\textwidth}
+
+      \includegraphics[page=1]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.65\textwidth}
+
+      \only<1>{
+
+        在 \texttt{main.tex} 中引入 \texttt{setup.tex} 来导入主要的信息录入与宏包加载配置。
+
+      }
+
+      \only<2>{
+
+        \alert{\textbf{(a,b)}} \texttt{setup.tex} 文件中 \cmd{sjtusetup} 设置的 \opt{info} 将会修改封面信息。
+
+      }
+
+      \begin{codeblock}[firstnumber=12]{main.tex}
+
+|\highlightline<1>|% 论文基本配置，加载宏包等全局配置
+
+|\highlightline<1>|\input{setup}
+
+\begin{document}
+
+%TC:ignore
+
+|\highlightline<2>|% 标题页
+
+|\highlightline<2>|\maketitle
+
+      \end{codeblock}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile, label=sjtusetup]
+
+  \frametitle{基本配置}
+
+  \begin{columns}
+
+    \begin{column}{0.35\textwidth}
+
+      \includegraphics[page=4]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.65\textwidth}
+
+      \vspace*{-0.2cm}
+
+      \begin{codeblock}[firstnumber=3]{setup.tex}
+
+\sjtusetup{
+
+  info = {
+
+    zh/title  = {|\phantom{}|上海交通大学学位论文 \LaTeX{} 模板示例文档},
+
+    en/title  = {A Sample for \LaTeX-based SJTU Thesis Template},
+
+    zh/author = {|\phantom{}|某\quad{}某},
+
+    en/author = {Mo Mo},
+
+  },
+
+  style = { float-seperator = {--}, },
+
+  name = {
+
+    achv = {|\phantom{}|攻读学位期间完成的论文},
+
+  },
+
+}
+
+      \end{codeblock}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}[label=setup]
+
+  \frametitle{基本配置}
+
+  \begin{columns}
+
+    \begin{column}{0.35\textwidth}
+
+      \includegraphics[page=4]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.65\textwidth}
+
+      \begin{table}
+
+        \centering
+
+        \caption{info 域}
+
+        \footnotesize
+
+        \begin{tabular}{lll} \toprule
+
+          命令作用     & 中文对应选项                      & 英文对应选项                 \\ \midrule
+
+          论文标题     & \texttt{zh/title}                 & \texttt{en/title}            \\
+
+          关键字列表   & \texttt{zh/keywords}              & \texttt{en/keywords}        \\
+
+          作者姓名     & \texttt{zh/author}                & \texttt{en/author}           \\
+
+          申请学位名称 & \texttt{zh/degree}                & \texttt{en/degree}           \\
+
+          院系名称     & \texttt{zh/department}            & \texttt{en/department}       \\
+
+          专业名称     & \texttt{zh/major}                 & \texttt{en/major}            \\
+
+          导师         & \texttt{zh/supervisor}            & \texttt{en/supervisor}       \\
+
+          副导师       & \texttt{zh/assoc-supervisor}      & \texttt{en/assoc-supervisor} \\
+
+          联培导师     & \texttt{zh/co-supervisor}         & \texttt{en/co-supervisor}    \\
+
+          日期         & \multicolumn{2}{c}{\texttt{date}}                                \\
+
+          学号         & \multicolumn{2}{c}{\texttt{id}}                                  \\ \bottomrule
+
+        \end{tabular}
+
+      \end{table}
+
+    \end{column}
+
+  \end{columns}
+
+  \note{有些选项是 v2 更名或新增的。}
+
+  \note{注意现在使用语言前缀作为键名。}
+
+\end{frame}
+
+\begin{frame}[fragile]
+
+  \frametitle{版权页}
+
+  \begin{columns}
+
+    \begin{column}{0.4\textwidth}
+
+      \includegraphics[page=5]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.6\textwidth}
+
+      \alert{\textbf{(c)}} \cmd{copyrightpage} 可以用于插入版权页。
+
+      也可接受一个可选参数，用于直接使用扫描件，此时需要载入 \pkg{pdfpages} 包。\thesisissue{473}
+
+      \begin{codeblock}[firstnumber=22]{main.tex}
+
+% 原创性声明及使用授权书
+
+\copyrightpage
+
+% 插入外置原创性声明及使用授权书
+
+% 导言区添加 \usepackage{pdfpages}
+
+% \copyrightpage[scans/sample-copyright-old.pdf]
+
+      \end{codeblock}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]
+
+  \frametitle{三个部分}
+
+  \framesubtitle{前置部分}
+
+  \begin{columns}
+
+    \begin{column}{0.4\textwidth}
+
+      \includegraphics[page=8]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.6\textwidth}
+
+      \alert{\textbf{(d,e,f,g,h)}} 前言从 \cmd{frontmatter} 处开始，页码设置为大写罗马数字，主要包含摘要和目录内容。
+
+      \begin{codeblock}[firstnumber=27]{main.tex}
+
+|\highlightline|% 前置部分
+
+|\highlightline|\frontmatter
+
+% 摘要
+
+\input{contents/abstract}
+
+% 目录
+
+\tableofcontents
+
+% ...
+
+      \end{codeblock}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]
+
+  \frametitle{三个部分}
+
+  \framesubtitle{正文部分}
+
+  \begin{columns}
+
+    \begin{column}{0.4\textwidth}
+
+      \includegraphics[page=9]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.6\textwidth}
+
+      \alert{\textbf{(i,j,k)}} 正文从 \cmd{mainmatter} 处开始，页码设置为正常数字，包含正文、参考文献、附录内容。
+
+      \begin{codeblock}[firstnumber=47]{main.tex}
+
+|\highlightline|% 主体部分
+
+|\highlightline|\mainmatter
+
+% 正文内容
+
+\input{contents/intro}
+
+\input{contents/math_and_citations}
+
+\input{contents/floats}
+
+\input{contents/summary}
+
+%TC:ignore
+
+% 参考文献
+
+\printbibliography[heading=bibintoc]
+
+% 附录
+
+\appendix
+
+      \end{codeblock}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]
+
+  \frametitle{三个部分}
+
+  \framesubtitle{结尾部分}
+
+  \begin{columns}
+
+    \begin{column}{0.4\textwidth}
+
+      \includegraphics[page=10]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.6\textwidth}
+
+      \alert{\textbf{(k,l,m,n)}} 结尾从 \cmd{backmatter} 处开始，页码设置为正常数字，包含致谢等相关情况。
+
+      \begin{codeblock}[firstnumber=71]{main.tex}
+
+|\highlightline|% 结尾部分
+
+|\highlightline|\backmatter
+
+% 用于盲审的论文需隐去致谢、发表论文、科研成果、简历
+
+% 致谢
+
+\input{contents/acknowledgements}
+
+% 发表论文及科研成果
+
+% 盲审论文中，发表论文及科研成果等仅以第几作者注明即可，不要出现作者或他人姓名
+
+\input{contents/achievements}
+
+%...
+
+      \end{codeblock}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}
+
+  \frametitle{数学定理环境}
+
+  \begin{columns}
+
+    \begin{column}{0.4\textwidth}
+
+      \includegraphics[page=6]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.6\textwidth}
+
+      \SJTUThesis{} 定义了常用的数学环境（需要在 \texttt{setup.tex} 中引入 \pkg{ntheorem} 或者 \pkg{amsthm} 宏包）。
+
+      \begin{table}
+
+        \centering
+
+        \caption{\textsc{SJTUThesis} 定义的数学环境}
+
+        \footnotesize
+
+        \begin{tabular}{>{\ttfamily}rl|>{\ttfamily}rl}
+
+          \toprule
+
+          assumption  & 假设  & lemma       & 引理 \\
+
+          axiom       & 公理  & problem     & 问题 \\
+
+          conjecture  & 猜想  & proof       & 证明 \\
+
+          corollary   & 推论  & proposition & 命题 \\
+
+          definition  & 定义  & remark      & 注   \\
+
+          example     & 例    & solution    & 解   \\
+
+          exercise    & 练习  & theorem     & 定理 \\
+
+          \bottomrule
+
+        \end{tabular}
+
+      \end{table}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]
+
+  \frametitle{参考文献}
+
+  \begin{columns}
+
+    \begin{column}{0.4\textwidth}
+
+      \includegraphics[page=7]{support/figures/thesisdir.pdf}
+
+    \end{column}
+
+    \begin{column}{0.6\textwidth}
+
+      \begin{codeblock}[firstnumber=111,numbersep=2pt]{setup.tex}
+
+% 使用 BibLaTeX 处理参考文献
+
+%   biblatex-gb7714-2015 常用选项
+
+%     gbnamefmt=lowercase     姓名大小写由输入信息确定
+
+%     gbpub=false             禁用出版信息缺失处理
+
+\usepackage[backend=biber,style=gb7714-2015]{biblatex}
+
+% 文献表字体
+
+% \renewcommand{\bibfont}{\zihao{-5}}
+
+% 文献表条目间的间距
+
+\setlength{\bibitemsep}{0pt}
+
+|\highlightline|% 导入参考文献数据库
+
+|\highlightline|\addbibresource{bibdata/thesis.bib}
+
+      \end{codeblock}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}
+
+  \frametitle{Word}
+
+  \begin{itemize}
+
+    \item[{\faQuestionCircle[regular]}] 跟 Word 的参考实现略有不同
+
+    \item[{\faCheckCircle[regular]}] 毕设论文的格式只要不违背《上海交通大学关于本科生毕业设计（论文）工作的指导意见》\link{https://github.com/sjtug/SJTUThesis/files/6505296/default.pdf} \thesisissue{621}、《上海交通大学博士、硕士学位论文撰写指南》\link{https://www.gs.sjtu.edu.cn/info/1143/5801.htm} \thesisissue{652} 即可，其他细节上的修改可以先搜索解决方案，再反馈给我们。
+
+    \item[{\faQuestionCircle[regular]}] 我需要转为 Word 文档
+
+    \item[{\faCheckCircle[regular]}] PDF 转为 Word 文档属于逆向工程，暂时不存在完全正确的转换方法 \link{https://www.bilibili.com/video/BV1Vi4y1C71M}，从 \LaTeX{} 源代码出发的转换可以使用其他工具实现 \thesisissue{480} \thesisissue{500}。
+
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+  \frametitle{还有其他问题？}
+
+  % \begin{columns}
+
+    % \begin{column}{0.73\textwidth}
+
+      \begin{itemize}
+
+        \item[{\faComment*[regular]}] 日常模板或 \LaTeX{} 使用问题可以前往 Discussions \link{https://github.com/sjtug/SJTUThesis/discussions} 提问
+
+        （解决后别忘了 \textcolor{green}{\faCheckCircle{} Mark as answer}
+
+        \item[{\faDotCircle[regular]}] 如果是 \textsc{SJTUThesis} 项目本身的 bug 和 feature request
+
+        可以通过 Issues \link{https://github.com/sjtug/SJTUThesis/issues} 反馈。
+
+        \item[{\faCodeBranch}] 如果你有好点子，可以贡献代码
+
+          向 \textsc{SJTU\TeX{}} \link{https://github.com/sjtug/SJTUTeX} 存储库发 PR，\par
+
+          而后把解包结果同步到 \textsc{SJTUThesis}。
+
+        \item[{\faQq}] 也欢迎在 QQ 群（715273806）即时讨论。
+
+        \note{群之前满了，社长给腾讯充了钱，让它可以接着塞人。}
+
+      \end{itemize}
+
+    % \end{column}
+
+    % \begin{column}{0.27\textwidth}
+
+    %   \includegraphics[height=0.7\textheight]{support/images/qq.jpg}
+
+    % \end{column}
+
+  % \end{columns}
+
+\end{frame}
+

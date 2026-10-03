@@ -1,0 +1,22 @@
+% !TeX program = xelatex
+\documentclass[review]{labpaper}
+\usepackage{amsmath,amssymb,amsthm,graphicx,booktabs,array,tabularx,subcaption}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{figures/}}
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+\addbibresource{references.bib}
+\title{室内温度校正：排版练习}
+\author{研究助理}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}本文使用六条教学合成观测比较两种温度校正结果，演示论文结构、图表与文献的组织。本文不报告真实科研发现。\end{abstract}
+\input{sections/intro}
+\input{sections/method}
+\input{sections/results}
+\section{排版资料}
+文档组织参考\cite{lamport1994}，排版背景参考\cite{knuth1984}。
+文献\cite{einstein1905}仅作期刊条目格式示例，不作为本方法依据。
+\printbibliography[title={参考文献}]
+
+\end{document}
