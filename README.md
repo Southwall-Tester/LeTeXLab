@@ -44,5 +44,3 @@ python tools/lab.py check 03 --project "你的工程路径"
 ## 学习资料
 
 - [从零开始使用 LaTeX 排版论文](https://www.bilibili.com/video/BV1Z24y157GM/)：知识映射依据该视频关联的 2023-04-01 配套讲稿，见 [知识覆盖](docs/COVERAGE.md)。
-
-本工具与 CMU/CSAPP、视频作者、学校模板项目无隶属关系。论文场景与数据是原创教学材料，不构成真实研究结果。
